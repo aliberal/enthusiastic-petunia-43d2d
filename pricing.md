@@ -22,10 +22,9 @@ sections:
       - title: MouseHelper.zip
         subtitle: Binary files (ZIP format)
         price: Free!
-        details: >+
+        details: >
           Click on the button below to download the latest version of Mouse
-          Helper Installer
-
+          Helper in ZIP format
         highlight: false
         actions:
           - label: Download
