@@ -151,3 +151,4 @@ exclude:
   - stackbit-build.sh
   - stackbit-pull.js
 domain: 'https://enthusiastic-petunia-43d2d.netlify.app'
+favicon: images/favicon.ico
