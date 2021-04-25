@@ -10,12 +10,8 @@ sections:
       - title: EXE Installer
         subtitle: "Get the latest\_ Version"
         price: Free!
-        details: |-
-          * Curabitur non nunc mollis
-          * Duis a purus nec ligula pellentesque dolor
-          * Pellentesque sit amet
-          * Fusce tempus mi vitae luctus
-          * Nullam sollicitudin ante
+        details: |
+          *   Download the latest version
         highlight: true
         actions:
           - label: Order Now
