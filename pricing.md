@@ -10,8 +10,10 @@ sections:
       - title: MouseHelper.exe
         subtitle: Installer (EXE format)
         price: Free!
-        details: |
-          *   Download the latest version
+        details: >+
+          *   Click on the button below to download the latest version of Mouse
+          Helper
+
         highlight: true
         actions:
           - label: Download
