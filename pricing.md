@@ -65,7 +65,7 @@ sections:
           lacus venenatis. Phasellus pellentesque dolor id feugiat faucibus.
           Etiam vehicula nunc velit, in consequat nisl feugiat nec.
   - section_id: lorem-ipsum
-    title: Installation Instructions
+    title: Instructions
     content: "If you have problems installing it (because your antivirus prevents it, for example), try the following:\n\n\n*   Please disable your antivirus (or add an exception for MouseHelper.exe), try the download and installation again, and then turn your antivirus back on. The program is digitally signed by me, and has all the guarantees, but since it accesses the mouse and keyboard at a very low level, some antivirus can incorrectly detect it as a false positive. As far as possible I will be contacting these companies so that they take it into account.\n\n<!---->\n\n*   If you can’t:\n\n    *   Try downloading the zip file and follow the\_[instructions](http://www.mousehelper.cls-system.es/EN/download.html#manual)\_below.\n\n    *   If you continue to have problems, contact me by email at\_[mousehelper@outlook.es](mailto://mousehelper@outlook.es)\_and I will try to help you personally.\n\nKeep in mind that I offer my help altruistically, and that behind this project I am only dedicating my free time, so be patient.\n"
     image_alt: lorem-ipsum
     background: gray
