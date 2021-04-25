@@ -37,33 +37,6 @@ sections:
             no_follow: false
             type: action
         type: pricing_plan
-  - section_id: faq
-    type: section_faq
-    background: gray
-    title: Instructions
-    subtitle: 'Phasellus luctus laoreet arcu, vel porta metus imperdiet sit amet.'
-    faq_items:
-      - question: Mauris ut tellus id arcu sagittis lacinia quis vel justo?
-        answer: >-
-          Ut cursus, nunc vitae hendrerit viverra, massa ipsum congue quam, sed
-          tempus mauris lacus sit amet nibh. Curabitur laoreet est maximus
-          mollis feugiat. Praesent nibh libero, placerat et justo at, luctus
-          tristique enim. Pellentesque habitant morbi tristique senectus et
-          netus et malesuada fames ac turpis egestas.
-      - question: Aliquam eget purus ante?
-        answer: >-
-          Nunc sollicitudin libero tincidunt felis pretium, consectetur aliquam
-          eros placerat. Sed neque neque, bibendum a pulvinar id, pellentesque
-          eget velit.
-      - question: Sed scelerisque in ipsum eu sollicitudin?
-        answer: >-
-          Nullam quis ultrices ipsum. Integer eleifend laoreet quam, ac
-          dignissim nisi mollis eget. Ut vitae nisi sit amet nisi suscipit
-          dictum faucibus eget magna. Vivamus in hendrerit magna, non
-          pellentesque metus. Morbi orci odio, dictum at efficitur sit amet,
-          luctus in ipsum. Nunc pellentesque mi vel dui vulputate, a lobortis
-          lacus venenatis. Phasellus pellentesque dolor id feugiat faucibus.
-          Etiam vehicula nunc velit, in consequat nisl feugiat nec.
   - section_id: lorem-ipsum
     title: Instructions
     content: "If you have problems installing it (because your antivirus prevents it, for example), try the following:\n\n\n*   Please disable your antivirus (or add an exception for MouseHelper.exe), try the download and installation again, and then turn your antivirus back on. The program is digitally signed by me, and has all the guarantees, but since it accesses the mouse and keyboard at a very low level, some antivirus can incorrectly detect it as a false positive. As far as possible I will be contacting these companies so that they take it into account.\n\n<!---->\n\n*   If you can’t:\n\n    *   Try downloading the zip file and follow the\_[instructions](http://www.mousehelper.cls-system.es/EN/download.html#manual)\_below.\n\n    *   If you continue to have problems, contact me by email at\_[mousehelper@outlook.es](mailto://mousehelper@outlook.es)\_and I will try to help you personally.\n\nKeep in mind that I offer my help altruistically, and that behind this project I am only dedicating my free time, so be patient.\n"
