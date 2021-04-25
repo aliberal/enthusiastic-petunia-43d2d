@@ -14,7 +14,7 @@ sections:
         url: /features
         style: primary
       - label: Download
-        url: '#'
+        url: /download
         style: link
         has_icon: false
         icon: arrow-left
