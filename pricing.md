@@ -15,7 +15,8 @@ sections:
         highlight: true
         actions:
           - label: Download
-            url: /signup
+            url: >-
+              https://github.com/clssystem/MouseHelperReleases/releases/latest/download/MouseHelper.exe
             style: primary
       - title: ZIP Installer
         subtitle: lorem-ipsum
