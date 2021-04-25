@@ -18,7 +18,7 @@ sections:
             url: >-
               https://github.com/clssystem/MouseHelperReleases/releases/latest/download/MouseHelper.exe
             style: primary
-      - title: ZIP Installer
+      - title: MouseHelper.zip
         subtitle: ZIP format
         price: lorem-ipsum
         details: >-
