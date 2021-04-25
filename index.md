@@ -3,7 +3,7 @@ title: Home
 sections:
   - section_id: main
     type: section_hero
-    image: images/Motor.png
+    image: images/pantalla0.PNG
     image_alt: App preview
     title: Mouse Helper
     content: "*Mouse Helper*\_is a free software that runs on Windows (7 and above), and that will help you improve your mouse operation.\n\n"
