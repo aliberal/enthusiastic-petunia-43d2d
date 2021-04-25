@@ -8,7 +8,7 @@ sections:
     subtitle: You can have a separate pricing page or list everything on the home page.
     pricing_plans:
       - title: MouseHelper.exe
-        subtitle: "Get the latest\_ Version"
+        subtitle: v.3.0.0
         price: Free!
         details: |
           *   Download the latest version
