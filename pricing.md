@@ -5,9 +5,7 @@ sections:
     type: section_pricing
     background: gray
     title: Download Mouse Helper
-    subtitle: >-
-      You can download have a separate pricing page or list everything on the
-      home page.
+    subtitle: Mouse Helper is available for download in the following formats
     pricing_plans:
       - title: MouseHelper.exe
         subtitle: Installer (EXE format)
