@@ -28,7 +28,7 @@ sections:
 
         highlight: false
         actions:
-          - label: lorem-ipsum
+          - label: Download
             url: '#'
             style: link
             has_icon: false
