@@ -15,7 +15,7 @@ sections:
         style: primary
       - label: Download
         url: /download
-        style: secondary
+        style: primary
         has_icon: false
         icon: arrow-left
         icon_position: left
