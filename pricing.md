@@ -21,18 +21,6 @@ sections:
           - label: Order Now
             url: /signup
             style: primary
-      - title: Enterprise
-        subtitle: For very large businesses
-        price: $149/m
-        details: |-
-          * Vestibulum non eros quis
-          * Aenean iaculis lorem
-          * Mauris eleifend sapien
-          * Phasellus lobortis risus laoreet quam
-        actions:
-          - label: Order Now
-            url: /signup
-            style: secondary
       - title: lorem-ipsum
         subtitle: lorem-ipsum
         price: lorem-ipsum
