@@ -22,7 +22,7 @@ sections:
             style: primary
       - title: MouseHelper.zip
         subtitle: ZIP format
-        price: lorem-ipsum
+        price: Free!
         details: >-
           ## Lorem ipsum
 
