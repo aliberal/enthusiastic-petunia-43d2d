@@ -14,7 +14,7 @@ sections:
           *   Download the latest version
         highlight: true
         actions:
-          - label: Order Now
+          - label: Download
             url: /signup
             style: primary
       - title: ZIP Installer
