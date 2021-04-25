@@ -20,7 +20,7 @@ sections:
               https://github.com/clssystem/MouseHelperReleases/releases/latest/download/MouseHelper.exe
             style: primary
       - title: MouseHelper.zip
-        subtitle: Binary files (ZIP format)
+        subtitle: Windows 7 (and above) Binary files (ZIP format)
         price: Free!
         details: >
           Click on the button below to download the latest version of Mouse
