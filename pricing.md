@@ -21,7 +21,7 @@ sections:
           - label: Order Now
             url: /signup
             style: primary
-      - title: lorem-ipsum
+      - title: ZIP Installer
         subtitle: lorem-ipsum
         price: lorem-ipsum
         details: >-
