@@ -21,7 +21,7 @@ sections:
               https://github.com/clssystem/MouseHelperReleases/releases/latest/download/MouseHelper.exe
             style: primary
       - title: MouseHelper.zip
-        subtitle: ZIP format
+        subtitle: Binary files (ZIP format)
         price: Free!
         details: >-
           ## Lorem ipsum
