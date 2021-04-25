@@ -8,7 +8,7 @@ sections:
     subtitle: Mouse Helper is available for download in the following formats
     pricing_plans:
       - title: MouseHelper.exe
-        subtitle: Windows 7 and above (EXE format)
+        subtitle: Windows 7 (and above) (EXE format)
         price: Free!
         details: >
           *   Click on the button below to download the latest version of Mouse
