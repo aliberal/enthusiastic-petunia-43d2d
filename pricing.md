@@ -9,7 +9,7 @@ sections:
     pricing_plans:
       - title: EXE Installer
         subtitle: "Get the latest\_ Version"
-        price: $49/m
+        price: Free!
         details: |-
           * Curabitur non nunc mollis
           * Duis a purus nec ligula pellentesque dolor
