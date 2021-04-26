@@ -39,8 +39,7 @@ sections:
         type: pricing_plan
   - section_id: lorem-ipsum
     title: Instructions
-    content: 
-    dsdsfsd
+    content: fdfgdfgdgd
     image_alt: lorem-ipsum
     background: gray
     actions: []
