@@ -7,7 +7,7 @@ sections:
     title: Download Mouse Helper
     subtitle: Mouse Helper is available for download in the following formats
     pricing_plans:
-      - title: MouseHelper.exe
+      - title: 'Option #1'
         subtitle: Windows 7 (and above)
         price: EXE format
         details: >
@@ -39,7 +39,7 @@ sections:
         type: pricing_plan
   - section_id: instructions
     title: Instructions
-    content: "ddddd"
+    content: ddddd
     image_alt: lorem-ipsum
     background: gray
     actions: []
@@ -65,4 +65,3 @@ seo:
       value: This is the pricing page
 layout: landing
 ---
-
