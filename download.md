@@ -1,12 +1,12 @@
 ---
 title: Download
 sections:
-  - section_id: pricing
-    type: section_pricing
+  - section_id: download
+    type: section_download
     background: gray
     title: Download Mouse Helper
     subtitle: Mouse Helper is available for download in the following formats
-    pricing_plans:
+    download_plans:
       - title: 'Option #1'
         subtitle: Windows 7 (and above)
         price: MouseHelper.exe
@@ -36,7 +36,7 @@ sections:
             new_window: false
             no_follow: false
             type: action
-        type: pricing_plan
+        type: download_plan
   - section_id: instructions
     title: Instructions
     content: ddddd
@@ -45,23 +45,23 @@ sections:
     actions: []
     type: section_content
 seo:
-  title: Pricing
-  description: This is the pricing page
+  title: download
+  description: This is the download page
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Pricing
+      value: download
       keyName: property
     - name: 'og:description'
-      value: This is the pricing page
+      value: This is the download page
       keyName: property
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Pricing
+      value: download
     - name: 'twitter:description'
-      value: This is the pricing page
+      value: This is the download page
 layout: landing
 ---

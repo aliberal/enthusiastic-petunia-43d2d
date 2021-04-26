@@ -1,5 +1,5 @@
 {% assign section = include.section %}
-<section id="{{ section.section_id }}" class="block pricing-block bg-{{ section.background }} outer">
+<section id="{{ section.section_id }}" class="block download-block bg-{{ section.background }} outer">
   <div class="block-header inner-small">
     {% assign title_is_not_empty = section.title | is_not_empty %}
     {% if title_is_not_empty %}
@@ -12,11 +12,11 @@
     </p>
     {% endif %}
   </div>
-  {% assign pricing_plans_is_not_empty = section.pricing_plans | is_not_empty %}
-  {% if pricing_plans_is_not_empty %}
+  {% assign download_plans_is_not_empty = section.download_plans | is_not_empty %}
+  {% if download_plans_is_not_empty %}
   <div class="inner">
     <div class="grid">
-      {% for plan in section.pricing_plans %}
+      {% for plan in section.download_plans %}
       <div class="cell plan">
         <div class="card{% assign highlight_is_not_empty = plan.highlight | is_not_empty %}{% if highlight_is_not_empty %} highlight{% endif %}">
           <div class="plan-header">

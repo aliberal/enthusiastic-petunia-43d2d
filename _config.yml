@@ -27,7 +27,7 @@ header:
       no_follow: false
       type: action
     - label: Download
-      url: /pricing
+      url: /download
       style: link
     - label: Style Guide
       url: /style-guide
