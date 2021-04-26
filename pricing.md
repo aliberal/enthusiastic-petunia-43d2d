@@ -37,7 +37,7 @@ sections:
             no_follow: false
             type: action
         type: pricing_plan
-  - section_id: lorem-ipsum
+  - section_id: instructions
     title: Instructions
     content: fdfgdfgdgd
     image_alt: lorem-ipsum
