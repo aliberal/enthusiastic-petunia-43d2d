@@ -39,7 +39,7 @@ sections:
         type: pricing_plan
   - section_id: instructions
     title: Instructions
-    content: ""
+    content: "ddddd"
     image_alt: lorem-ipsum
     background: gray
     actions: []
