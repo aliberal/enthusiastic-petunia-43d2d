@@ -9,7 +9,7 @@ sections:
     pricing_plans:
       - title: 'Option #1'
         subtitle: Windows 7 (and above)
-        price: EXE format
+        price: MouseHelper.exe
         details: >
           *   Click on the button below to download the latest version of Mouse
           Helper Installer
