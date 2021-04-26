@@ -19,7 +19,7 @@ sections:
             url: >-
               https://github.com/clssystem/MouseHelperReleases/releases/latest/download/MouseHelper.exe
             style: primary
-      - title: MouseHelper.zip
+      - title: 'Option #2'
         subtitle: Windows 7 (and above)
         price: ZIP format
         details: >
