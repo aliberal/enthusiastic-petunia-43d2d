@@ -39,7 +39,7 @@ sections:
         type: pricing_plan
   - section_id: instructions
     title: Instructions
-    content: "If you have problems installing it (because your antivirus prevents it, for example), try the following:\n\n*   Please disable your antivirus (or add an exception for MouseHelper.exe), try the download and installation again, and then turn your antivirus back on. The program is digitally signed by me, and has all the guarantees, but since it accesses the mouse and keyboard at a very low level, some antivirus can incorrectly detect it as a false positive.\r\n    As far as possible I will be contacting these companies so that they take it into account.\n\n*   If you can't:\n\n"
+    content: ""
     image_alt: lorem-ipsum
     background: gray
     actions: []
