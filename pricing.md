@@ -21,7 +21,7 @@ sections:
             style: primary
       - title: 'Option #2'
         subtitle: Windows 7 (and above)
-        price: ZIP format
+        price: MouseHelper.zip
         details: >
           Click on the button below to download the latest version of Mouse
           Helper in ZIP format
