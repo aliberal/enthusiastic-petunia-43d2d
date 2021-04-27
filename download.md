@@ -4,14 +4,14 @@ sections:
   - section_id: download
     type: section_download
     background: gray
-    title: Download Mouse Helper
+    title: Download MouseHelper
     subtitle: Mouse Helper is available for download in the following formats
     download_plans:
-      - title: 'Option #1'
+      - title: 'MouseHelper.exe'
         subtitle: Windows 7 (and above)
-        price: MouseHelper.exe
+        price: 'Standalone Installer v.3.0.0'
         details: >
-          *   Click on the button below to download the latest version of Mouse
+          Click on the button below to download the latest version of Mouse
           Helper Installer
         highlight: true
         actions:
@@ -19,9 +19,9 @@ sections:
             url: >-
               https://github.com/clssystem/MouseHelperReleases/releases/latest/download/MouseHelper.exe
             style: primary
-      - title: 'Option #2'
+      - title: 'MouseHelper.zip'
         subtitle: Windows 7 (and above)
-        price: MouseHelper.zip
+        price: ZIP File
         details: >
           Click on the button below to download the latest version of Mouse
           Helper in ZIP format
@@ -41,9 +41,7 @@ sections:
     type: section_features
     background: gray
     features:
-      - title: 'Option#1'
-        image: images/HowToInstallEdge.gif
-        image_alt: App user profile preview
+      - subtitle: 'Standalone Installer'
         content: >-
           Download the setup file and follow the instructions, depending on your
           internet browser.
@@ -58,7 +56,7 @@ sections:
             The program is digitally signed by me, and has all the guarantees, but since it accesses the mouse and keyboard at a very low level, some antivirus can incorrectly detect it as a false positive.
             As far as possible I will be contacting these companies so that they take it into account.
 
-          * If you can't, choose Option#2
+          * If you can't, choose the ZIP file method.
 
 
           * If you continue to have problems, contact me by email at
@@ -67,10 +65,18 @@ sections:
              
           **Keep in mind that I offer my help altruistically, and that behind
           this project I am only dedicating my free time, so be patient.**
-      - title: 'Option#2'
-        image: images/HowToInstallManual.gif
-        image_alt: App user profile preview
+        actions:
+          - label: View image
+            url: >-
+              images/HowToInstallEdge.gif
+            style: secondary
+      - subtitle: 'ZIP file'
         content: Download the ZIP file and follow the instructions.
+        actions:
+          - label: View image
+            url: >-
+              images/HowToInstallManual.gif
+            style: secondary
 seo:
   title: download
   description: This is the download page

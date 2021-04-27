@@ -19,8 +19,15 @@
     <div class="block-item">
       <div class="grid">
         <div class="cell block-content">
+          {% assign title_is_not_empty = feature.title | is_not_empty %}
+          {% if title_is_not_empty %}
           <h3 class="block-title underline">{{ feature.title }}</h3>
-          <div class="block-copy">
+          {% endif %}
+          {% assign subtitle_is_not_empty = feature.subtitle | is_not_empty %}
+          {% if subtitle_is_not_empty %}
+          <h3 class="block-subtitle underline">{{ feature.subtitle }}</h3>
+          {% endif %}
+          <div class="cell">
             {{ feature.content | markdownify }}
           </div>
           {% assign actions_is_not_empty = feature.actions | is_not_empty %}
