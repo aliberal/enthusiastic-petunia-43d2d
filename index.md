@@ -3,10 +3,10 @@ title: Home
 sections:
   - section_id: main
     type: section_hero
-    image: images/purple-sycamore.PNG
+    image: images/feature0.png
     image_alt: App preview
     title: Mouse Helper
-    content: "*Mouse Helper*\_is a free software that runs on Windows (7 and above), and that will help you improve your mouse operation.\n\n"
+    content: "*Mouse Helper*\_is a free software suite that runs on Windows (7 and above), and that will help you improve your mouse operation.\n\n"
     actions:
       - label: Learn More
         url: /features
@@ -98,9 +98,12 @@ sections:
     subtitle: >-
          This sofware is free to run and distribute, but you can make a donation to any aid association if you feel like it.
          I suggest you to make it in a Parkinson's Association, such as ANAPAR or Spanish Parkinson's Federation
+         I suggest you to make it in a Parkinson's Association, such as [ANAPAR](http://www.anapar.org/) or  [ Spanish Parkinson's Federation](https://www.esparkinson.es/)
+
+
     actions:
       - label: Make a donation
-        url: /signup
+        url: https://www.anapar.org/socio/haz-un-donativo/
         style: primary
 seo:
   title: Stackbit Azimuth Theme
