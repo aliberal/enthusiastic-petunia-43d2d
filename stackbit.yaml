@@ -293,7 +293,7 @@ models:
             - section_features
             - section_hero
             - section_posts
-            - section_pricing
+            - section_download
             - section_reviews
             - section_contact
       - type: model
@@ -587,9 +587,9 @@ models:
           - gray
           - white
         default: gray
-  section_pricing:
+  section_download:
     type: object
-    label: Pricing Section
+    label: download Section
     extends:
       - section
     fields:
@@ -606,15 +606,15 @@ models:
           - white
         default: gray
       - type: list
-        name: pricing_plans
-        label: Pricing Plans
+        name: download_plans
+        label: download Plans
         items:
           type: model
           models:
-            - pricing_plan
-  pricing_plan:
+            - download_plan
+  download_plan:
     type: object
-    label: Pricing Plan
+    label: download Plan
     labelField: title
     fields:
       - type: string

@@ -7,7 +7,7 @@ collections:
 base_font: nunito-sans
 palette: orange
 header:
-  logo_img: images/MouseHelper.png
+  logo_img: images/logo.svg
   logo_img_alt: Logo
   has_nav: true
   nav_links:
@@ -17,8 +17,17 @@ header:
     - label: Features
       url: /features
       style: link
+    - label: lorem-ipsum
+      url: '#'
+      style: link
+      has_icon: false
+      icon: arrow-left
+      icon_position: left
+      new_window: false
+      no_follow: false
+      type: action
     - label: Download
-      url: /pricing
+      url: /download
       style: link
     - label: Style Guide
       url: /style-guide
@@ -36,7 +45,7 @@ footer:
     - type: footer_nav
       title: Company
       nav_links:
-        - label: About Us
+        - label: About
           url: /about
           style: link
         - label: Blog
@@ -119,11 +128,8 @@ footer:
       submit_label: Subscribe
   has_nav: true
   nav_links:
-    - label: Terms of Service
-      url: /terms-of-service
-      style: link
-    - label: Privacy Policy
-      url: /privacy-policy
+    - label: License
+      url: /license
       style: link
   content: >-
     &copy; Stackbit. All rights reserved. This Jamstack site was created with <a

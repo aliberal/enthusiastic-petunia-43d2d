@@ -1,19 +1,18 @@
 ---
-title: About Us
+title: About
 subtitle: >-
-  This is an optional subtitle. It can be used to describe what this page is
-  about.
+  My name is Antonio Liberal
 image: images/about.jpg
 image_alt: Team members in a conference room
 seo:
-  title: About Us
+  title: About Me
   description: This is the about page
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: About Us
+      value: About Me
       keyName: property
     - name: 'og:description'
       value: This is the about page
@@ -25,7 +24,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: About Us
+      value: About Me
     - name: 'twitter:description'
       value: This is the about page
     - name: 'twitter:image'
@@ -34,6 +33,13 @@ seo:
 layout: page
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus quis lorem malesuada luctus. Cras lacinia, eros at dapibus molestie, risus tortor pretium ligula, eu malesuada tortor eros dapibus mi. Proin laoreet efficitur suscipit. Donec molestie volutpat euismod. Nulla gravida ligula in eros facilisis, sed dignissim tellus aliquam. Etiam convallis enim nisi, at suscipit tortor pulvinar at. Nulla a interdum lacus. Sed a porttitor mi. Sed at risus eu orci ultricies mattis sed in tellus. Cras nec neque sed dui vehicula iaculis id vel ex. Phasellus non consectetur augue. Pellentesque condimentum sapien arcu, nec tempus nunc maximus eu. Duis blandit risus nulla. In dolor dui, placerat non finibus sit amet, venenatis pretium tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+I am a software developer and I have had Parkinson for a few years, so I created Mouse Helper to improve the stability of the mouse when my hand shakes.
 
-Nunc a lorem tellus. Aenean eu auctor purus. Cras pulvinar, nunc at sagittis dignissim, orci elit auctor leo, et consectetur est turpis a nunc. Vivamus in faucibus felis. Aenean rutrum magna at ex auctor, congue efficitur ligula feugiat. Proin a egestas arcu. Etiam feugiat turpis quis mollis pellentesque. Sed posuere luctus tortor, a eleifend augue varius sit amet. Integer ultrices neque sed quam dictum, quis vestibulum justo volutpat. Nam vitae tempus leo, ut mattis mi.
+Like any other Parkinsonian, the biggest problems we encounter when handling the mouse are:
+
+* We need to slow down in order to do precision tasks, like changing the width of a column.
+* Because our fingers shake, we sometimes click unintentionally.
+* Drag & drop operations are often an ordeal. Many times we unintentionally drag a file into a folder.
+
+Even if you do not have the disease, this program can also be useful for you: Try it and if you like it, make a donation to any association (if it is Parkinson, better...)
+

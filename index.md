@@ -1,33 +1,37 @@
 ---
 title: Home
 sections:
-  - section_id: hero
+  - section_id: main
     type: section_hero
-    image: images/hero.png
+    image: images/purple-sycamore.PNG
     image_alt: App preview
-    title: This Is A Big Hero Headline
-    content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site.
+    title: Mouse Helper
+    content: "*Mouse Helper*\_is a free software that runs on Windows (7 and above), and that will help you improve your mouse operation.\n\n"
     actions:
       - label: Learn More
         url: /features
         style: primary
+      - label: Download
+        url: /download
+        style: primary
+        has_icon: false
+        icon: arrow-left
+        icon_position: left
+        new_window: false
+        no_follow: false
+        type: action
   - section_id: features
     type: section_features
     background: gray
     title: Features
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      Improve the stability of the mouse when your hand shakes
     features:
-      - title: The Best Feature of Your Services
+      - title: MouseHelper
         image: images/feature1.png
-        image_alt: App preview on a phone and tablet
+        image_alt: Control the mouse pointer
         content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+          With ***MouseHelper*** you will control the mouse speed, the button press time or the drag and drog operations
         actions:
           - label: Learn More
             url: /features
@@ -35,13 +39,14 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-      - title: Awesome Feature of Your Services
+      - title: MouseJoyHelper
         image: images/feature2.png
-        image_alt: App users welcoming a new member
+        image_alt: MouseJoyHelper
         content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+          With ***MouseJoyHelper*** you will control your mouse pointer with a JoyStick
+          
+
+          Choose one of the JoySticks on your system and configur the speed of the mouse and assing each of its buttons a specialized task
         actions:
           - label: Learn More
             url: /features
@@ -49,13 +54,11 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-      - title: Cool Feature of Your Services
+      - title: KeyBoardHelper & MouseKeysHelper
         image: images/feature3.png
-        image_alt: App user profile preview
+        image_alt: KeyBoardHelper & MouseKeysHelper
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+          With ***KeyBoardHelper*** & ***MouseKeysHelper*** you will control the keystrokes and move the mouse using your keyboard
         actions:
           - label: Learn More
             url: /features
@@ -63,39 +66,40 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-  - section_id: reviews
-    type: section_reviews
-    background: white
-    title: Testimonials
-    subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales.
-    reviews:
-      - author: Eric Widget
-        avatar: images/review1.jpg
-        avatar_alt: Eric Widget's photo
+      - title: MiniHelpers
+        image: images/feature4.png
+        image_alt: MiniHelpers
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Parsley Montana
-        avatar: images/review2.jpg
-        avatar_alt: Parsley Montana's photo
+          Use the MiniHelpers!
+
+          A set of small components that will try to help in handling your Mouse or your JoyStick
+        actions:
+          - label: Learn More
+            url: /features
+            style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+      - title: Configuration
+        image: images/feature5.png
+        image_alt: Configuration
         content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-      - author: Jonquil Von Haggerston
-        avatar: images/review3.jpg
-        avatar_alt: Jonquil Von Haggerston's photo
-        content: >-
-          Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
-  - section_id: call-to-action
+          Configure ***MouseHelper*** and change the language or  how it should start when Windows starts
+        actions:
+          - label: Learn More
+            url: /features
+            style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+  - section_id: make-a-donation
     type: section_cta
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
+    title: Do you like MouseHelper?
+    subtitle: >-
+         This sofware is free to run and distribute, but you can make a donation to any aid association if you feel like it.
+         I suggest you to make it in a Parkinson's Association, such as ANAPAR or Spanish Parkinson's Federation
     actions:
-      - label: Get Started
+      - label: Make a donation
         url: /signup
         style: primary
   - section_id: recent-posts
