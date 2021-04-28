@@ -1,60 +1,7 @@
 ---
-title: Contact
-sections:
-  - section_id: contact
-    type: section_contact
-    background: gray
-    title: Contact
-    content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus. Cras lacinia, eros at dapibus molestie, risus
-      tortor pretium ligula.
-    form_id: contactForm
-    form_fields:
-      - input_type: text
-        name: name
-        label: Name
-        is_required: true
-      - input_type: email
-        name: email
-        label: Email
-        is_required: true
-      - input_type: select
-        name: subject
-        label: Subject
-        default_value: Please select
-        options:
-          - Error on the site
-          - Sponsorship
-          - Other
-      - input_type: textarea
-        name: message
-        label: Message
-      - input_type: checkbox
-        name: consent
-        label: >-
-          I understand that this form is storing my submitted information so I
-          can be contacted.
-        is_required: true
-    submit_label: Send Message
-  - section_id: lorem-ipsum
-    title: lorem-ipsum
-    content: >-
-      ## Lorem ipsum
+ title: Contact
 
-
-      Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-      - Lorem ipsum
-
-      - dolor sit amet
-    image_alt: lorem-ipsum
-    background: gray
-    actions: []
-    type: section_content
-seo:
+ seo:
   title: Contact
   description: This is the contact page
   extra:
@@ -73,5 +20,15 @@ seo:
       value: Contact
     - name: 'twitter:description'
       value: This is the contact page
-layout: landing
+layout: page
 ---
+
+You can contact with me throug the following means:
+
+* e-mail: [mousehelper@outlook.es](mailto:mousehelper@outlook.es)
+* Facebook: [ClsSystemMouseHelper](https://www.facebook.com/ClsSystemMouseHelper/)
+* Twitter: [@mouse_helper](https://twitter.com/mouse_helper)
+
+I will be happy to answer your questions and accept your suggestions.
+
+You can also read [el diario de un parkinsoniano](https://diariodeunparkinsoniano.cls-system.es/)

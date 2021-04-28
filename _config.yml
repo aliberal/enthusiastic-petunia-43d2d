@@ -43,16 +43,13 @@ footer:
       image_alt: Footer logo
       content: Stackbit theme demo
     - type: footer_nav
-      title: Company
+      title: Cls-System
       nav_links:
         - label: About
           url: /about
           style: link
         - label: Blog
-          url: /blog
-          style: link
-        - label: Sign Up
-          url: /signup
+          url: 'https://diariodeunparkinsoniano.cls-system.es/'
           style: link
         - label: Contact
           url: /contact
@@ -61,78 +58,30 @@ footer:
       title: Community
       nav_links:
         - label: Twitter
-          url: 'https://twitter.com/'
+          url: 'https://twitter.com/mouse_helper'
           style: link
           has_icon: true
           icon: twitter
           icon_position: left
         - label: LinkedIn
-          url: 'https://www.linkedin.com/'
+          url: 'https://www.linkedin.com/in/antonio-liberal-irigoyen-3233053a/'
           style: link
           has_icon: true
           icon: linkedin
           icon_position: left
-        - label: GitHub
-          url: 'https://github.com/'
+        - label: Facebook
+          url: 'https://www.facebook.com/ClsSystemMouseHelper/'
           style: link
           has_icon: true
-          icon: github
+          icon: facebook
           icon_position: left
-        - label: lorem-ipsum
-          url: '#'
-          style: link
-          has_icon: false
-          icon: arrow-left
-          icon_position: left
-          new_window: false
-          no_follow: false
-          type: action
-        - label: lorem-ipsum
-          url: '#'
-          style: link
-          has_icon: false
-          icon: arrow-left
-          icon_position: left
-          new_window: false
-          no_follow: false
-          type: action
-        - label: lorem-ipsum
-          url: '#'
-          style: link
-          has_icon: false
-          icon: arrow-left
-          icon_position: left
-          new_window: false
-          no_follow: false
-          type: action
-        - label: lorem-ipsum
-          url: '#'
-          style: link
-          has_icon: false
-          icon: arrow-left
-          icon_position: left
-          new_window: false
-          no_follow: false
-          type: action
-    - type: footer_form
-      title: Subscribe
-      content: Stay up to date with our latest developments.
-      form_id: contactForm
-      hide_labels: true
-      form_fields:
-        - input_type: email
-          name: email
-          label: Email
-          default_value: Enter email address
-          is_required: true
-      submit_label: Subscribe
   has_nav: true
   nav_links:
     - label: License
       url: /license
       style: link
   content: >-
-    &copy; Stackbit. All rights reserved. This Jamstack site was created with <a
+    &copy; Cls-System. All rights reserved. This Jamstack site was based in a template made with <a
     href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank"
     rel="noopener">Stackbit</a>. Create yours <a
     href="https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer"
