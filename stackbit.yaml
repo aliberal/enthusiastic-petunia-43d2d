@@ -270,7 +270,6 @@ models:
   menu_language:
     type: data
     label: Language
-    folder: menu_language
     fields:
       - type: string
         name: language

@@ -1,30 +1,6 @@
 ---
 lang: en-US
 title: Home
-header:
-  nav_links:
-    - label: Homesss
-      url: /
-      style: link
-    - label: Features
-      url: /features
-      style: link
-    - label: Media
-      url: /mentions
-      style: link
-      has_icon: false
-      icon: arrow-left
-      icon_position: left
-      new_window: false
-      no_follow: false
-      type: action
-    - label: Download
-      url: '/download'
-      style: link
-    - label: Make a Donation
-      url: https://www.anapar.org/socio/haz-un-donativo/
-      style: primary
-
 sections:
   - section_id: main
     type: section_hero

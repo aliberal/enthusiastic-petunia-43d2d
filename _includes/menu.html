@@ -1,7 +1,11 @@
-{% for m in site.data.authors%}
-
-         {% assign mL = m %}
-<a>{{% mL %}}</a>
+{% assign p_is_not_empty = page.lang | is_not_empty %}
+{% if p_is_not_empty %}
+{% assign p = page.lang %}
+{% else %}
+    {% assign p = site.lang %}
+{% endif %}
+{% assign mm = site.data.menu_language | where: "language", p %}
+{% for m in  mm %}
 
       <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
           <div class="site-nav-inside">
