@@ -75,7 +75,7 @@ footer:
   has_nav: true
   nav_links:
     - label: License
-      url: /licenseMS
+      url: /licenseMD
       style: link
   content: >-
     &copy; Cls-System. All rights reserved. This Jamstack site was based in a template made with <a
@@ -100,7 +100,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - LICENSExx.md
   - README.md
   - netlify.toml
   - stackbit-build.sh
