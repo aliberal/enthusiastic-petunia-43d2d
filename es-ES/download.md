@@ -1,4 +1,5 @@
 ---
+lang: es-ES
 title: Download
 sections:
   - section_id: download
@@ -28,7 +29,8 @@ sections:
         highlight: false
         actions:
           - label: Download
-            url: '#'
+            url: >-
+              https://github.com/clssystem/MouseHelperReleases/releases/latest/download/MouseHelper.zip
             style: primary
             has_icon: false
             icon: arrow-left

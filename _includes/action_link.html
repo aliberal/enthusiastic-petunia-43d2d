@@ -1,4 +1,19 @@
 {% assign action = include.action %}
-<a href="{{ action.url | relative_url }}"
+{% assign sitelang = site.lang%}
+{% assign pagelang = page.lang%}
+{% assign pagelang_is_not_empty = page.lang | is_empty %}
+{% if pagelang_is_empty %}
+{% assign pagelang = sitelang%}
+{% endif %}
+
+{% assign domain = site.domain | trim: '/' %}
+{% assign rel_url = action.url | relative_url %}
+{% assign full_url = domain | append: pagelang | append: rel_url %}
+{% if rel_url contains '://' %}
+{% assign full_url = rel_url %}
+
+{% endif %}
+
+<a href="{{ full_url }}"
   {% assign new_window_is_not_empty = action.new_window | is_not_empty %}{% if new_window_is_not_empty %} target="_blank"{% endif %}
   {% if action.new_window or action.no_follow %} rel="{% assign new_window_is_not_empty = action.new_window | is_not_empty %}{% if new_window_is_not_empty %}noopener {% endif %}{% assign no_follow_is_not_empty = action.no_follow | is_not_empty %}{% if no_follow_is_not_empty %}nofollow{% endif %}"{% endif %}>{{ action.label }}</a>

@@ -1,6 +1,30 @@
 ---
-lang: es-ES
+lang: en-US
 title: Home
+header:
+  nav_links:
+    - label: Homesss
+      url: /
+      style: link
+    - label: Features
+      url: /features
+      style: link
+    - label: Media
+      url: /mentions
+      style: link
+      has_icon: false
+      icon: arrow-left
+      icon_position: left
+      new_window: false
+      no_follow: false
+      type: action
+    - label: Download
+      url: '/download'
+      style: link
+    - label: Make a Donation
+      url: https://www.anapar.org/socio/haz-un-donativo/
+      style: primary
+
 sections:
   - section_id: main
     type: section_hero
@@ -105,8 +129,8 @@ sections:
         url: https://www.anapar.org/socio/haz-un-donativo/
         style: primary
 seo:
-  title: Stackbit Azimuth Theme
-  description: The preview of the Azimuth theme
+  title: Mouse Helper
+  description: The preview of MouseHelper
   extra:
     - name: 'og:type'
       value: website
@@ -115,7 +139,7 @@ seo:
       value: Stackbit Azimuth Theme
       keyName: property
     - name: 'og:description'
-      value: The preview of the Azimuth theme
+      value: The preview of MouseHelper
       keyName: property
     - name: 'og:image'
       value: images/hero.png

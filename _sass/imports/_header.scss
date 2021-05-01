@@ -47,10 +47,16 @@
   }
 }
 
+
 #masthead {
   .site-branding {
     a {
       color: inherit;
+      text-decoration:underline;
+      display: inline-block;
+      margin:  0 0 0 0.1em;
+      font-size: small;
+
     }
   }
 
@@ -67,6 +73,7 @@
       }
     }
   }
+  
 }
 
 @media only screen and (min-width: 801px) {
@@ -79,9 +86,8 @@
 
     .menu-item {
       display: inline-block;
-      margin: 0 0 0 1.875em;
+      margin:  0 0 0 1.875em;
     }
-
     .button {
       padding: 0.25em 0.9375em;
     }
@@ -169,7 +175,7 @@
     top: 0;
     -webkit-transition: right .3s ease-in-out, visibility 0s .3s ease-in-out;
     transition: right .3s ease-in-out, visibility 0s .3s ease-in-out;
-    visibility: hidden;
+    visibility:hidden  ;
     width: 400px;
     z-index: 999;
 
@@ -203,12 +209,15 @@
     }
   }
 
+
+
   .site-nav-inside {
     height: 100%;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     position: relative;
   }
+
 
   .menu--opened {
     .site {

@@ -1,0 +1,23 @@
+{% for m in site.data.authors%}
+
+         {% assign mL = m %}
+<a>{{% mL %}}</a>
+
+      <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
+          <div class="site-nav-inside">
+              <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button>
+              <ul class="menu">
+                  {% for action in m.nav_links %}
+                  {% assign page_url = page.url | trim: '/' %}
+                  {% assign action_url = action.url | trim: '/' %}
+                  {% assign action_style = action.style | default: 'link' %}
+                  <li class="menu-item{% if page_url == action_url %} current-menu-item{% endif %} {% if action_style != 'link'%}menu-button{% endif %}">
+
+                      {% include action.html action=action %}
+                  </li>
+                  {% endfor %}
+              </ul>
+          </div>
+      </nav>
+      <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+{% endfor %}

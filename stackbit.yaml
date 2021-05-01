@@ -24,6 +24,11 @@ models:
         description: Serve the website from the given base URL
         hidden: true
       - type: string
+        name: url
+        label: URL
+        description: Serve the website from the given URL
+        hidden: true
+      - type: string
         name: permalink
         label: Permalink
         description: 'The output path for your pages, posts, or collections.'
@@ -32,9 +37,7 @@ models:
       - type: string
         name: domain
         label: Domain
-        description: >-
-          The domain of your site, including the protocol, e.g.
-          https://mysite.com/
+        description: 'https://www.mousehelper.cls-system.es'
       - type: image
         name: favicon
         label: Favicon
@@ -122,6 +125,14 @@ models:
         name: logo_img_alt
         label: Logo Alt Text
         description: The alt text of the logo image
+      - type: list
+        name: nav_languages
+        label: Language Links
+        description: List of language links
+        items:
+          type: model
+          models:
+            - action
       - type: boolean
         name: has_nav
         label: Enable Navigation
@@ -256,19 +267,21 @@ models:
         name: content
         label: Content
         description: The text content of the section
-  person:
+  menu_language:
     type: data
-    label: Person
-    folder: authors
+    label: Language
+    folder: menu_language
     fields:
       - type: string
-        name: first_name
-      - type: string
-        name: last_name
-      - type: markdown
-        name: bio
-      - type: image
-        name: photo
+        name: language
+      - type: list
+        name: nav_links
+        label: Navigation Links
+        description: List of navigation links
+        items:
+          type: model
+          models:
+            - action
   landing:
     type: page
     label: Landing Page
@@ -752,6 +765,7 @@ models:
           - link
           - primary
           - secondary
+          - language
         default: link
       - type: boolean
         name: has_icon

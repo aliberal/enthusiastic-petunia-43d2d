@@ -1,6 +1,7 @@
-title: Mouse Helper
-baseurl: /
-permalink: '/:title/'
+lang: es-ES
+title: 'MouseHelper'
+url: 'https://www.mousehelper.cls-system.es'
+permalink: '/:title/:lang'
 collections:
   posts:
     permalink: '/posts/:title/'
@@ -10,6 +11,16 @@ header:
   logo_img: images/logo.svg
   logo_img_alt: Logo
   has_nav: true
+  nav_languages:
+    - label: EN
+      url: /en-US
+      style: language
+    - label: ES
+      url: /es-ES
+      style: language
+    - label: EU
+      url: /es-EU
+      style: language
   nav_links:
     - label: Home
       url: /
@@ -27,9 +38,9 @@ header:
       no_follow: false
       type: action
     - label: Download
-      url: /download
+      url: '/download'
       style: link
-    - label: Donate!
+    - label: Make a Donation
       url: https://www.anapar.org/socio/haz-un-donativo/
       style: primary
 footer:
@@ -104,5 +115,5 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-domain: 'https://enthusiastic-petunia-43d2d.netlify.app'
+domainsss: 'https://www.mousehelper.cls-system.es'
 favicon: images/favicon.ico
