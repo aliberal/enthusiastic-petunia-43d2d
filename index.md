@@ -97,10 +97,8 @@ sections:
     title: Do you like MouseHelper?
     subtitle: >-
          This sofware is free to run and distribute, but you can make a donation to any aid association if you feel like it.
-         I suggest you to make it in a Parkinson's Association, such as ANAPAR or Spanish Parkinson's Federation
+
          I suggest you to make it in a Parkinson's Association, such as [ANAPAR](http://www.anapar.org/) or  [ Spanish Parkinson's Federation](https://www.esparkinson.es/)
-
-
     actions:
       - label: Make a donation
         url: https://www.anapar.org/socio/haz-un-donativo/
