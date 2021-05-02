@@ -50,14 +50,16 @@
 
 #masthead {
   .site-branding {
-    a {
+    a:not(h2) {
       color: inherit;
-      text-decoration:underline;
+      text-decoration:none;
       display: inline-block;
       margin:  0 0 0 0.1em;
-      font-size: small;
+      font-size: medium;
+
 
     }
+  
   }
 
   .site-navigation {

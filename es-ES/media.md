@@ -1,108 +1,6 @@
 ---
-title: Home
-sections:
-  - section_id: main
-    type: section_hero
-    image: images/feature00.png
-    image_alt: App preview
-    title: Mouse Helper
-    content: "*Mouse Helper*\_is a free software suite that runs on Windows (7 and above), and that will help you improve your mouse operation.\n\n"
-    actions:
-      - label: Learn More
-        url: /features
-        style: primary
-      - label: Download
-        url: /download
-        style: primary
-        has_icon: false
-        icon: arrow-left
-        icon_position: left
-        new_window: false
-        no_follow: false
-        type: action
-  - section_id: features
-    type: section_features
-    background: gray
-    title: Features
-    subtitle: >-
-      Improve the stability of the mouse when your hand shakes
-    features:
-      - title: MouseHelper
-        image: images/feature1.png
-        image_alt: Control the mouse pointer
-        content: >-
-          With ***MouseHelper*** you will control the mouse speed, the button press time or the drag and drog operations
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: MouseJoyHelper
-        image: images/feature2.png
-        image_alt: MouseJoyHelper
-        content: >-
-          With ***MouseJoyHelper*** you will control your mouse pointer with a JoyStick
-          
-
-          Choose one of the JoySticks on your system and configur the speed of the mouse and assing each of its buttons a specialized task
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: KeyBoardHelper & MouseKeysHelper
-        image: images/feature3.png
-        image_alt: KeyBoardHelper & MouseKeysHelper
-        content: >-
-          With ***KeyBoardHelper*** & ***MouseKeysHelper*** you will control the keystrokes and move the mouse using your keyboard
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: MiniHelpers
-        image: images/feature4.png
-        image_alt: MiniHelpers
-        content: >-
-          Use the MiniHelpers!
-
-          A set of small components that will try to help in handling your Mouse or your JoyStick
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: Configuration
-        image: images/feature5.png
-        image_alt: Configuration
-        content: >-
-          Configure ***MouseHelper*** and change the language or  how it should start when Windows starts
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-  - section_id: make-a-donation
-    type: section_cta
-    title: Do you like MouseHelper?
-    subtitle: >-
-         This sofware is free to run and distribute, but you can make a donation to any aid association if you feel like it.
-
-         I suggest you to make it in a Parkinson's Association, such as [ANAPAR](http://www.anapar.org/) or  [ Spanish Parkinson's Federation](https://www.esparkinson.es/)
-    actions:
-      - label: Make a donation
-        url: https://www.anapar.org/socio/haz-un-donativo/
-        style: primary
+title: 'Menciones en medios'
+description: 'Menciones de Mouse Helper en los medios de comunicación'
 seo:
   title: Stackbit Azimuth Theme
   description: The preview of the Azimuth theme
@@ -129,5 +27,32 @@ seo:
     - name: 'twitter:image'
       value: images/hero.png
       relativeUrl: true
-layout: landing
+layout: page
 ---
+
+#### 11/11/2020
+
+##### Presentación a los medios de MouseHelper
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B9vcEUVCpbU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen></iframe>
+</div>
+<p></p>
+
+##### Artículos destacados
+
+
+
+
+* [eldiario.es](https://www.eldiario.es/navarra/ultimas-noticias/una-aplicacion-informatica-facilita-el-uso-del-raton-en-personas-con-parkinson-y-permite-que-puedan-usar-el-ordenador_1_6404150.html)
+* [europapress.es](https://www.europapress.es/navarra/noticia-aplicacion-informatica-facilita-uso-raton-personas-parkinson-permite-puedan-usar-ordenador-20201111143126.html)
+* [el español](https://navarra.elespanol.com/articulo/sociedad/programador-informatico-navarro-parkinson-raton/20201111162522344841.html)
+* [el español](https://navarra.elespanol.com/articulo/sociedad/programa-raton-enfermos-parkinson-navarra/20201110114840344682.html)
+* [cope](https://www.cope.es/actualidad/sociedad/noticias/enfermo-parkinson-disena-programa-para-manejar-raton-20201110_988858)
+* [navarra televisión](https://www.navarratelevision.es/AlaCarta/video/fl/1024326/Este%20proyecto%20facilita%20el%20d%C3%ADa%20a%20d%C3%ADa%20de%20las%20personas%20con%20Parkinson)
+* [rtve navarra](https://twitter.com/RTVENavarra/status/1326175955593859072?s=08)
+* [rtve telediario 1](https://www.rtve.es/alacarta/videos/telediario/15-horas-11-11-20/5711260)
+* [onda cero navarra](https://www.ondacero.es/emisoras/navarra/pamplona/audios-podcast/noticias-mediodia-navarra/noticias-mediodia-navarra-11112020_202011115fabd3e90e37c40001001811.html)
+* [radio pamplona](https://cadenaser.com/emisora/2020/11/12/radio_pamplona/1605174928_667072.html)
+* [diario de noticias](https://amp.diariodenavarra.es/noticias/navarra/2020/11/10/un-navarro-con-parkinson-disena-programa-para-manejar-raton-707678-300.html)
+* [la información](https://www.lainformacion.com/tecnologia/enfermo-parkinson-espana-disena-programa-ayuda-uso-raton-ordenador/2820546/)
