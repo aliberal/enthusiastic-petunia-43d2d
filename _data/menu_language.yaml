@@ -7,7 +7,7 @@
     url: /features
     style: link
   - label: Medios
-    url: /mentions
+    url: /media
     style: link  
     has_icon: false
     icon: arrow-left
@@ -30,7 +30,7 @@
     url: /features
     style: link
   - label: Media
-    url: /mentions
+    url: /media
     style: link  
     has_icon: false
     icon: arrow-left
