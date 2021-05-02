@@ -15,11 +15,12 @@
 
 {% assign domain = site.domain | trim: '/' %}
 {% assign rel_url = action.url | relative_url %}
+{% assign rel_url = rel_url | replace: 'enthusiastic-petunia-43d2d/', '' %}
 {% assign full_url = domain | append: pagelang | append: rel_url %}
 {% if rel_url contains '://' %}
 {% assign full_url = rel_url %}
 {% endif %}
-{% assign full_url = full_url | replace: 'enthusiastic-petunia-43d2d/', '' %}
+
 
 
 <a href="{{ full_url }}"
