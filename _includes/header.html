@@ -2,27 +2,38 @@
     <div class="inner">
         <div class="site-header-inside">
             <div class="site-branding">
-                <p class="site-logo" style="margin:0px;">
-                    <div style="margin:0px;">
-                        <div style="margin:0px;">
+                <div class="site-logo" style="margin:0px;">
+                    <div style="display:inline-block">
+                        <div style="float:left;margin:0px">
+
                             <h2 style="margin:0px;" href='{{ '/' | relative_url }}'>
-                                <img src="{{ site.header.logo_img | relative_url }}" alt="{{ site.header.logo_img_alt }}" width="65" style="vertical-align:middle;margin:0px;" />MouseHelper
+                                <img src="{{ site.header.logo_img | relative_url }}" alt="{{ site.header.logo_img_alt }}" style="vertical-align:middle;margin:0px;max-height:65px" />
                             </h2>
                         </div>
+                        <div style="float:right;margin:0px;">
+                            <div style="margin:0px;">
+                                <h2 style="margin:0px;" href='{{ '/' | relative_url }}'>
+                                    MouseHelper
+                                </h2>
+                            </div>
+                            <div class="site-logo" style="margin:0px;">
+                                <p style="margin:0px;">
+                                    <img src="{{ site.header.logo_clsSystem | relative_url }}" alt="{{ site.header.logo_img_alt}}" style="vertical-align:central;margin:0px" href='{{ '/' | relative_url }}' />
+                                    {% for action in site.header.nav_languages %}
+                                    {% assign page_url = page.url | trim: '/' %}
+                                    {% assign action_url = action.url | trim: '/' %}
+                                    {% assign action_style = action.style | default: 'link' %}
+                                    {% include action.html action=action %}
+                                    {% endfor %}
+                                </p>
+                            </div>
 
+                        </div>
                     </div>
-                <p style="margin:0px;" href='{{ '/' | relative_url }}'>
-                    <img src="{{ site.header.logo_clsSystem | relative_url }}" alt="{{ site.header.logo_img_alt}}" style="vertical-align:central;margin:0px;" width="100" />
-                    {% for action in site.header.nav_languages %}
-                    {% assign page_url = page.url | trim: '/' %}
-                    {% assign action_url = action.url | trim: '/' %}
-                    {% assign action_style = action.style | default: 'link' %}
-                    {% include action.html action=action %}
-                    {% endfor %}
-                </p>
+                </div>
 
-    </div><!-- .site-branding -->
-    {% include menu.html%}
-    </div>
+            </div><!-- .site-branding -->
+            {% include menu.html%}
+        </div>
     </div>
 </header><!-- .site-header -->
