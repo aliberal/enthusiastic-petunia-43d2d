@@ -13,11 +13,11 @@ header:
   logo_img_alt: Logo
   has_nav: true
   nav_languages:
-    - label: EN
-      url: /en-US
-      style: language
     - label: ES
       url: /es-ES
+      style: language
+    - label: EN
+      url: /en-US
       style: language
     - label: EU
       url: /es-EU

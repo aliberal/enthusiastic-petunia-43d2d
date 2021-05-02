@@ -1,9 +1,11 @@
 ---
+
 title: About
 subtitle: >-
   My name is Antonio Liberal
 image: images/about.jpg
 image_alt: Team members in a conference room
+lang: en-US
 seo:
   title: About Me
   description: This is the about page

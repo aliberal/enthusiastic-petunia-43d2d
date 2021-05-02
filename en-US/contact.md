@@ -1,4 +1,5 @@
 ---
+lang: en-US
  title: Contact
 
  seo:
