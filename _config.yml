@@ -94,5 +94,5 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-domain: 'https://aliberal.github.io/enthusiastic-petunia-43d2d/'
+domain: 'https://aliberal.github.io/enthusiastic-petunia-43d2d'
 favicon: images/favicon.ico
