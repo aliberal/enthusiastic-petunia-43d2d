@@ -1,6 +1,6 @@
 lang: es-ES
 title: 'MouseHelper'
-url: 'https://www.mousehelper.cls-system.es'
+urlxx: 'https://www.mousehelper.cls-system.es'
 permalink: '/:title/:lang'
 collections:
   posts:
