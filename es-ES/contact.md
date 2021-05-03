@@ -1,15 +1,15 @@
----
+﻿---
  lang: es-ES
- title: Contact
+ title: Contacto
  seo:
-  title: Contact
-  description: This is the contact page
+  title: Contacto
+  description: Página de contacto
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Contact
+      value: Contacto
       keyName: property
     - name: 'og:description'
       value: This is the contact page
@@ -23,12 +23,12 @@
 layout: page
 ---
 
-You can contact with me throug the following means:
+Puedes contactar conmigo a través de los siguientes medios:
 
 * e-mail: [mousehelper@outlook.es](mailto:mousehelper@outlook.es)
 * Facebook: [ClsSystemMouseHelper](https://www.facebook.com/ClsSystemMouseHelper/)
 * Twitter: [@mouse_helper](https://twitter.com/mouse_helper)
 
-I will be happy to answer your questions and accept your suggestions.
+Estaré encantado de resolver tus dudas y de aceptar tus sugerencias.
 
-You can also read [el diario de un parkinsoniano](https://diariodeunparkinsoniano.cls-system.es/)
+También puedes leer [el diario de un parkinsoniano](https://diariodeunparkinsoniano.cls-system.es/)

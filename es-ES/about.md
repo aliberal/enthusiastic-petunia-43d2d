@@ -1,22 +1,22 @@
----
+﻿---
 lang: es-ES
-title: About
+title: Acerca de
 subtitle: >-
-  My name is Antonio Liberal
+  Mi nombre es Antonio Liberal
 image: /:pagelang:/images/about.jpg
-image_alt: Team members in a conference room
+image_alt: 
 seo:
-  title: About Me
-  description: This is the about page
+  title: Acerca de
+  description: Esta es la página acerca de
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: About Me
+      value: Acerca de
       keyName: property
     - name: 'og:description'
-      value: This is the about page
+      value: Esta es la página acerca de
       keyName: property
     - name: 'og:image'
       value: /:pagelang:/images/about.jpg
@@ -25,22 +25,24 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: About Me
+      value: Acerca de
     - name: 'twitter:description'
-      value: This is the about page
+      value: Esta es la página acerca de
     - name: 'twitter:image'
       value: /:pagelang:/images/about.jpg
       relativeUrl: true
 layout: page
 ---
 
-I am a software developer and I have had Parkinson for a few years, so I created Mouse Helper to improve the stability of the mouse when my hand shakes.
+Me llamo Antonio Liberal, soy desarrollador de software y tengo Parkinson
+      desde hace unos cuantos años, por lo que he creado Mouse Helper para
+      mejorar la estabilidad del ratón cuando mi mano tiembla.
 
-Like any other Parkinsonian, the biggest problems we encounter when handling the mouse are:
+Como cualquier otro parkinsoniano, los mayores problemas con los que nos
+      encontramos al manejarnos con el ratón son:
 
-* We need to slow down in order to do precision tasks, like changing the width of a column.
-* Because our fingers shake, we sometimes click unintentionally.
-* Drag & drop operations are often an ordeal. Many times we unintentionally drag a file into a folder.
+* Necesitamos reducir su velocidad para poder hacer tareas de precisión, como cambiar el ancho de una columna.
+* Como los dedos tiemblan, a veces hacemos clic de manera involuntaria.
+* Con frecuencia las operaciones de arrastre (drag &amp; drop) son un suplicio. Muchas veces arrastramos involuntariamente un archivo en una carpeta.
 
-Even if you do not have the disease, this program can also be useful for you: Try it and if you like it, make a donation to any association (if it is Parkinson, better...)
-
+Aunque no tengas la enfermedad, este programa también puede ser útil para tí: Pruebálo y si te gusta, haz un donativo a cualquier asociación (si es de Parkinson, mejor... ) 

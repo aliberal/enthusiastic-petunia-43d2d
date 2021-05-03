@@ -1,12 +1,12 @@
 ﻿---
 lang: es-ES
-title: Acknowledgments and attributions
+title: Agradecimientos y atribuciones
 subtitle: >-
-  Thank you!
+  ¡Gracias!
 image: /:pagelang:/images/thanks.png
 image_alt: Thank you
 seo:
-  title: T
+  title: Gracias
   description: This is the about page
   extra:
     - name: 'og:type'
@@ -34,6 +34,7 @@ seo:
 layout: page
 ---
 
-All the icons in this application have been obtained from [www.flaticon.com](https://www.flaticon.com/ "Flaticon"), made by [Freepik](https://www.flaticon.com/authors/freepik "Freepik") and [smalllikeart](https://www.flaticon.es/autores/smalllikeart "smalllikeart")
+Todos los iconos de está aplicación se han obtenido de [www.flaticon.com](https://www.flaticon.com/ "Flaticon"), realizados por [Freepik](https://www.flaticon.com/authors/freepik "Freepik") y [smalllikeart](https://www.flaticon.es/autores/smalllikeart "smalllikeart")
 
-Special thanks to Jesús Chocarro for his parkinsonian efforts in testing the tool, and to "Serpis72" for his baptism as a beta tester with this application.
+Agradecimientos especiales para Jesús Chocarro por sus esfuerzos parkinsonianos al probar la herramienta, y para "Serpis72" por su bautizo de beta tester con esta aplicación
+
