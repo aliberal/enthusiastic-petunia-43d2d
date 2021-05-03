@@ -1,4 +1,5 @@
 ---
+lang: es-ES
 title: Privacy Policy
 seo:
   title: Privacy Policy

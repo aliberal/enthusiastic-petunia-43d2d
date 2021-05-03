@@ -1,21 +1,13 @@
-{% assign sitelang = site.lang%}
-{% assign pagelang = page.lang%}
-{% assign pagelang_is_not_empty = page.lang | is_empty %}
-{% if pagelang_is_empty %}
-{% assign pagelang = sitelang%}
-{% endif %}
-{% assign pagelang = '/' | append: pagelang %}
-{% if action_style == 'language'%}
-{% assign pagelang = ''%}
-{% endif %}
 
 {% assign domain = site.domain | trim: '/' %}
 {% assign rel_url = action.url | relative_url %}
-{% assign full_url = domain | append: pagelang | append: rel_url %}
+{% assign full_url = domain | append: rel_url %}
 {% if rel_url contains '://' %}
 {% assign full_url = rel_url %}
 
 {% endif %}
+{% assign full_url = full_url | replace: ':pagelang:', pagelang %}
+
 
 <header id="masthead" class="site-header outer">
     <div class="inner">
@@ -25,7 +17,7 @@
                     
                     <div style="flex-grow:1">
                         <a href="{{full_url}}" style="text-decoration:none">
-                                <img src="{{ site.header.logo_img | relative_url }}" alt="{{ site.header.logo_img_alt }}" style="vertical-align:middle;margin:0px;max-width:18vw">
+                                <img src="{{ site.header.logo_img | relative_url | replace: ':pagelang:', pagelang }}" style="vertical-align:middle;">
                               </a>
                     </div>
                     <div style="flex-grow:2">
@@ -34,7 +26,7 @@
 
                             <div>
                             <a href="{{full_url}}" style="text-decoration:none">
-                            <img src="{{ site.header.logo_clsSystem | relative_url }}" alt="{{ site.header.logo_img_alt}}" style="vertical-align:central;margin:0px;max-width:100px" href='{{ '/' | relative_url }}' />
+                            <img src="{{ site.header.logo_clsSystem | relative_url | replace: ':pagelang:', pagelang }}" style="vertical-align:central;width:140px;" href='{{ '/' | relative_url }}' />
                                 </a>
                                 </div>
 

@@ -4,7 +4,7 @@ ssgVersion: 3.8.4
 buildCommand: jekyll build
 publishDir: _site
 staticDir: ''
-uploadDir: images
+uploadDir: /:pagelang:/images
 dataDir: _data
 pagesDir: ''
 pageLayoutKey: layout

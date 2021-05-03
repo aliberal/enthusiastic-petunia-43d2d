@@ -3,7 +3,7 @@ layout: body
 ---
 
 {% for section in page.sections %}
-  
+{% include language.html %} 
   {% assign component = section.type | append: ".html" %}
-  {% include {{ component }} section=section site=site %}
+  {% include {{ component }} section=section site=site  page=page  %}
 {% endfor %}

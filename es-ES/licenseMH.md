@@ -1,4 +1,5 @@
 ---
+lang: es-ES
 title: License
 seo:
   title: License

@@ -16,7 +16,7 @@ seo:
       value: The preview of the Azimuth theme
       keyName: property
     - name: 'og:image'
-      value: images/hero.png
+      value: :pagelang:/images/hero.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -26,7 +26,7 @@ seo:
     - name: 'twitter:description'
       value: The preview of the Azimuth theme
     - name: 'twitter:image'
-      value: images/hero.png
+      value: :pagelang:/images/hero.png
       relativeUrl: true
 layout: page
 ---

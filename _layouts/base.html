@@ -5,6 +5,8 @@
     <link rel="alternate" hreflang="es" href="{{ site.domain  | replace:'/EU', '' }}{{ page.url | replace:'index.html',''}}" />
     <link rel="alternate" hreflang="es-EU" href="{{ site.domain }}{{ page.url | replace:'index.html',''}}" />
     <link rel="alternate" hreflang="en" href="{{ site.domain  | replace:'/EU', '/EN'}}{{ page.url | replace:'index.html',''}}" />
+{% include language.html %}
+
 
         <title>{% assign title_is_not_empty = page.seo.title | is_not_empty %}{% if title_is_not_empty %}{{ page.seo.title }}{% else %}{{ page.title | append: ' | ' | append: site.title }}{% endif %}</title>
         <meta charset="utf-8">

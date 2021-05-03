@@ -5,7 +5,7 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: images/feature1.png
+    image: /:pagelang:/images/feature1.png
     image_alt: App preview on a phone and tablet
     title: The Best Features of Your Services
     content: >-
@@ -25,7 +25,7 @@ sections:
       sed justo tempor condimentum.
     actions:
       - label: Free Trial
-        url: /signup
+        url: :pagelang:/signup
         style: primary
       - label: View Demo
         url: '#'
@@ -52,7 +52,7 @@ seo:
       value: This is the features page
       keyName: property
     - name: 'og:image'
-      value: images/feature1.png
+      value: /:pagelang:/images/feature1.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -62,7 +62,7 @@ seo:
     - name: 'twitter:description'
       value: This is the features page
     - name: 'twitter:image'
-      value: images/feature1.png
+      value: /:pagelang:/images/feature1.png
       relativeUrl: true
 layout: landing
 ---

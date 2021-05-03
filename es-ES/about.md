@@ -1,8 +1,9 @@
 ---
+lang: es-ES
 title: About
 subtitle: >-
   My name is Antonio Liberal
-image: images/about.jpg
+image: /:pagelang:/images/about.jpg
 image_alt: Team members in a conference room
 seo:
   title: About Me
@@ -18,7 +19,7 @@ seo:
       value: This is the about page
       keyName: property
     - name: 'og:image'
-      value: images/about.jpg
+      value: /:pagelang:/images/about.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -28,7 +29,7 @@ seo:
     - name: 'twitter:description'
       value: This is the about page
     - name: 'twitter:image'
-      value: images/about.jpg
+      value: /:pagelang:/images/about.jpg
       relativeUrl: true
 layout: page
 ---

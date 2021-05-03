@@ -1,6 +1,6 @@
 ---
+ lang: es-ES
  title: Contact
-
  seo:
   title: Contact
   description: This is the contact page

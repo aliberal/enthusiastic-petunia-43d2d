@@ -1,19 +1,19 @@
 ---
 lang: es-ES
-title: Home
+title: Mouse Helper
 sections:
   - section_id: main
     type: section_hero
-    image: images/feature00.png
+    image: /:pagelang:/images/feature00.png
     image_alt: App preview
     title: Mouse Helper
-    content: "*Mouse Helper*\_is a free software suite that runs on Windows (7 and above), and that will help you improve your mouse operation.\n\n"
+    content: "*Mouse Helper*\ es un programa gratuito que funciona en Windows (7 en adelante), y que te ayudará a mejorar el manejo con el ratón"
     actions:
-      - label: Learn More
-        url: /features
+      - label: Saber más
+        url: /:pagelang:/features
         style: primary
-      - label: Download
-        url: /download
+      - label: Descargar
+        url: /:pagelang:/download
         style: primary
         has_icon: false
         icon: arrow-left
@@ -24,84 +24,81 @@ sections:
   - section_id: features
     type: section_features
     background: gray
-    title: Features
+    title: Características
     subtitle: >-
-      Improve the stability of the mouse when your hand shakes
+      Mejora la estabilidad del ratón aunque tu mano tiemble
     features:
       - title: MouseHelper
-        image: images/feature1.png
-        image_alt: Control the mouse pointer
+        image: /:pagelang:/images/feature1.png
+        image_alt: Controlar el puntero del ratón
         content: >-
-          With ***MouseHelper*** you will control the mouse speed, the button press time or the drag and drog operations
+          Con ***MouseHelper*** podrás controlar la velocidad del ratón, el tiempo de pulsación de sus botones o las operaciones de arrastrar y soltar
         actions:
-          - label: Learn More
-            url: /features
+          - label: Saber más
+            url: /:pagelang:/features
             style: secondary
             has_icon: true
             icon: arrow-right
             icon_position: right
       - title: MouseJoyHelper
-        image: images/feature2.png
+        image: /:pagelang:/images/feature2.png
         image_alt: MouseJoyHelper
         content: >-
-          With ***MouseJoyHelper*** you will control your mouse pointer with a JoyStick
-          
-
-          Choose one of the JoySticks on your system and configur the speed of the mouse and assing each of its buttons a specialized task
+          Con ***MouseJoyHelper*** podrás controlar el ratón con una palanca de juego (JoyStick)
         actions:
-          - label: Learn More
-            url: /features
+          - label: Saber más
+            url: /:pagelang:/features
             style: secondary
             has_icon: true
             icon: arrow-right
             icon_position: right
       - title: KeyBoardHelper & MouseKeysHelper
-        image: images/feature3.png
+        image: /:pagelang:/images/feature3.png
         image_alt: KeyBoardHelper & MouseKeysHelper
         content: >-
-          With ***KeyBoardHelper*** & ***MouseKeysHelper*** you will control the keystrokes and move the mouse using your keyboard
+          Con ***KeyBoardHelper*** & ***MouseKeysHelper*** podrás controlar las pulsaciones de las teclas, y mover el ratón con el teclado
         actions:
-          - label: Learn More
-            url: /features
+          - label: Saber más
+            url: /:pagelang:/features
             style: secondary
             has_icon: true
             icon: arrow-right
             icon_position: right
       - title: MiniHelpers
-        image: images/feature4.png
+        image: /:pagelang:/images/feature4.png
         image_alt: MiniHelpers
         content: >-
-          Use the MiniHelpers!
+          ¿Conoces los **MiniHelpers**?
 
-          A set of small components that will try to help in handling your Mouse or your JoyStick
+          Son un conjunto de pequeños componentes que te ayudarán a manejar mejor tu ratón o tu JoyStick
         actions:
-          - label: Learn More
-            url: /features
+          - label: Saber más
+            url: /:pagelang:/features
             style: secondary
             has_icon: true
             icon: arrow-right
             icon_position: right
-      - title: Configuration
-        image: images/feature5.png
-        image_alt: Configuration
+      - title: Configuración
+        image: /:pagelang:/images/feature5.png
+        image_alt: Configuración
         content: >-
-          Configure ***MouseHelper*** and change the language or  how it should start when Windows starts
+          Configura ***MouseHelper***, cambiando el idioma o cómo quieres que se inicie al arrancar Windows
         actions:
-          - label: Learn More
-            url: /features
+          - label: Saber más
+            url: /:pagelang:/features
             style: secondary
             has_icon: true
             icon: arrow-right
             icon_position: right
   - section_id: make-a-donation
     type: section_cta
-    title: Do you like MouseHelper?
+    title: ¡Haz una donación!
     subtitle: >-
-         This sofware is free to run and distribute, but you can make a donation to any aid association if you feel like it.
+         Este software es de libre ejecución y distribución, pero si puedes haz una donación a cualquiera asociación de ayuda si lo encuentras de utilidad.
 
-         I suggest you to make it in a Parkinson's Association, such as [ANAPAR](http://www.anapar.org/) or  [ Spanish Parkinson's Federation](https://www.esparkinson.es/)
+         Te recomiendo que lo hagas a un asociación de Parkinson, como [ANAPAR](http://www.anapar.org/) o la [Federación Española de Parkinson](https://www.esparkinson.es/)
     actions:
-      - label: Make a donation
+      - label: Dona!
         url: https://www.anapar.org/socio/haz-un-donativo/
         style: primary
 seo:
@@ -118,7 +115,7 @@ seo:
       value: The preview of the Azimuth theme
       keyName: property
     - name: 'og:image'
-      value: images/hero.png
+      value: /:pagelang:/images/hero.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -128,7 +125,7 @@ seo:
     - name: 'twitter:description'
       value: The preview of the Azimuth theme
     - name: 'twitter:image'
-      value: images/hero.png
+      value: /:pagelang:/images/hero.png
       relativeUrl: true
 layout: landing
 ---

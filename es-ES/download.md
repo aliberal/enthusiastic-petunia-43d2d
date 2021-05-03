@@ -70,14 +70,14 @@ sections:
         actions:
           - label: View image
             url: >-
-              images/HowToInstallEdge.gif
+              /:pagelang:/images/HowToInstallEdge.gif
             style: secondary
       - subtitle: 'ZIP file'
         content: Download the ZIP file and follow the instructions.
         actions:
           - label: View image
             url: >-
-              images/HowToInstallManual.gif
+              /:pagelang:/images/HowToInstallManual.gif
             style: secondary
 seo:
   title: download

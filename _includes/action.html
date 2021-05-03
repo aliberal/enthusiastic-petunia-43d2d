@@ -2,25 +2,10 @@
 {% assign action_style = action.style | default: 'link' %}
 {% assign action_icon = action.icon | default: 'arrow-left' %}
 {% assign action_icon_pos = action.icon_position | default: 'left' %}
-{% assign sitelang = site.lang%}
-{% assign pagelang = page.lang%}
-{% assign pagelang_is_empty = page.lang | is_empty %}
-{% if pagelang_is_empty %}
-{% assign pagelang = sitelang%}
-{% endif %}
-{% assign pagelang = '/' | append: pagelang %}
-{% if action_style == 'language'%}
-{% assign pagelang = ''%}
-{% endif %}
+{% assign action_url = action.url | replace: ':pagelang:', pagelang %}
+{% assign rel_url = action_url | relative_url %}
 
-{% assign domain = site.domain | trim: '/' %}
-{% assign rel_url = action.url | relative_url %}
-{% assign rel_url = rel_url | replace: 'enthusiastic-petunia-43d2d/', '' %}
-{% assign full_url = domain | append: pagelang | append: rel_url %}
-{% if rel_url contains '://' %}
 {% assign full_url = rel_url %}
-{% endif %}
-
   
 
 <a href="{{ full_url }}"
