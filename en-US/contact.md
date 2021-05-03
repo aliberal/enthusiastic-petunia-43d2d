@@ -1,5 +1,5 @@
 ---
-lang: en-US
+ lang: en-US
  title: Contact
 
  seo:
