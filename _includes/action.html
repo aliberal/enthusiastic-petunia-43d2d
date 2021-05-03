@@ -4,7 +4,7 @@
 {% assign action_icon_pos = action.icon_position | default: 'left' %}
 {% assign sitelang = site.lang%}
 {% assign pagelang = page.lang%}
-{% assign pagelang_is_not_empty = page.lang | is_empty %}
+{% assign pagelang_is_empty = page.lang | is_empty %}
 {% if pagelang_is_empty %}
 {% assign pagelang = sitelang%}
 {% endif %}
