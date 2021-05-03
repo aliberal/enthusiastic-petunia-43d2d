@@ -1,4 +1,5 @@
 ---
+lang: es-ES
 title: Features
 sections:
   - section_id: features
