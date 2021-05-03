@@ -34,7 +34,7 @@ seo:
 layout: page
 ---
 
-Me llamo Antonio Liberal, soy desarrollador de software y tengo Parkinson
+Soy desarrollador de software y tengo Parkinson
       desde hace unos cuantos años, por lo que he creado Mouse Helper para
       mejorar la estabilidad del ratón cuando mi mano tiembla.
 
