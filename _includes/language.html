@@ -5,6 +5,6 @@
 {% if pagelang_is_empty %}
 {% assign pagelang = site.lang%}
 {% endif %}
-{% assign pagelang = page.lang | default: site.lang | default: "es-ES"%}
+{% assign pagelang = page.lang | default: site.lang | default: "es"%}
 <!--<p>{{pagelang}} {{site.lang}} {{page.lang}}</p>-->
 

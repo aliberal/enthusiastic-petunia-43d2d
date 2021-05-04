@@ -1,4 +1,4 @@
-lang: es-ES
+lang: es
 title: 'MouseHelper'
 urlxx: 'https://www.mousehelper.cls-system.es'
 permalink: '/:title/:lang'
@@ -14,16 +14,16 @@ header:
   has_nav: true
   nav_languages:
     - label: ES
-      url: /es-ES
+      url: /es
       style: language
     - label: EN
-      url: /en-US
+      url: /en
       style: language
     - label: EU
-      url: /es-EU
+      url: /eu
       style: language
 footers:
- - name: es-ES
+ - name: es
    sections:
     - type: footer_text
       image: 
@@ -77,7 +77,7 @@ footers:
     rel="noopener">Stackbit</a>. Create yours <a
     href="https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer"
     target="_blank" rel="noopener">now</a>.
- - name: en-US
+ - name: en
    sections:
     - type: footer_text
       image: 

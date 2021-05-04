@@ -1,5 +1,5 @@
 ﻿---
- lang: es-ES
+ lang: es
  title: Contacto
  seo:
   title: Contacto

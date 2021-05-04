@@ -1,5 +1,5 @@
 ---
-lang: es-ES
+lang: en
 title: Style Guide
 subtitle: >-
   The style guide provides you with a blueprint of default post and page styles.

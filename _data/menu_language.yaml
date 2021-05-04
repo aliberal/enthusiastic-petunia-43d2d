@@ -1,13 +1,13 @@
-- language: 'es-ES'
+- language: 'es'
   nav_links:
   - label: Home
-    url: '/es-ES/'
+    url: '/es/'
     style: link
   - label: Caracteristicas
-    url: /es-ES/features
+    url: /es/features
     style: link
   - label: Medios
-    url: /es-ES/media
+    url: /es/media
     style: link  
     has_icon: false
     icon: arrow-left
@@ -16,21 +16,21 @@
     no_follow: false
     type: action
   - label: Descarga
-    url: /es-ES/download
+    url: /es/download
     style: link
   - label: Haz una donacion
     url: https://www.anapar.org/socio/haz-un-donativo/
     style: primary
-- language: 'en-US'
+- language: 'en'
   nav_links:
   - label: Home
-    url: '/en-US/'
+    url: '/en/'
     style: link
   - label: Features
-    url: /en-US/features
+    url: /en/features
     style: link
   - label: Media
-    url: /en-US/media
+    url: /en/media
     style: link  
     has_icon: false
     icon: arrow-left
@@ -39,7 +39,7 @@
     no_follow: false
     type: action
   - label: Download
-    url: '/en-US/download'
+    url: '/en/download'
     style: link
   - label: Make a Donation
     url: https://www.anapar.org/socio/haz-un-donativo/

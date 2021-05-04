@@ -16,7 +16,7 @@ layout: body
       </header>
       {% assign image_is_not_empty = page.image | is_not_empty %}
       {% if image_is_not_empty %}
-      <div class="post-image" style="align-items:center">
+      <div class="post-image">
           <img  src="{{ page.image  | replace: ':pagelang:', pagelang | relative_url }}" alt="{{ page.image_alt }}" />
       </div>
       {% endif %}

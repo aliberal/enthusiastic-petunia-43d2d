@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: es
 title: Features
 sections:
   - section_id: features
@@ -25,7 +25,7 @@ sections:
       sed justo tempor condimentum.
     actions:
       - label: Free Trial
-        url: :pagelang:/signup
+        url: /:pagelang:/signup
         style: primary
       - label: View Demo
         url: '#'
@@ -62,7 +62,7 @@ seo:
     - name: 'twitter:description'
       value: This is the features page
     - name: 'twitter:image'
-      value: /:pagelang:/images/feature1.png
+      value: mages/feature1.png
       relativeUrl: true
 layout: landing
 ---

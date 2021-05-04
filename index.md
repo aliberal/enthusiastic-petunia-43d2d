@@ -1,5 +1,5 @@
 ---
-lang: es-ES
+lang: es
 title: Mouse Helper
 sections:
   - section_id: main

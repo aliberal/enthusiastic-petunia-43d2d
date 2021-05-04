@@ -1,5 +1,5 @@
 ﻿---
-lang: es-ES
+lang: es
 title: Acerca de
 subtitle: >-
   Mi nombre es Antonio Liberal

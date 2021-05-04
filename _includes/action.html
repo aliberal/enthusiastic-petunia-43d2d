@@ -1,4 +1,6 @@
-{% assign action = include.action %}
+﻿{% assign action = include.action %}
+{% assign action_style = action.style | default: 'link' %}
+{% assign action_label = action.label | downcase' %}
 {% assign action_style = action.style | default: 'link' %}
 {% assign action_icon = action.icon | default: 'arrow-left' %}
 {% assign action_icon_pos = action.icon_position | default: 'left' %}
@@ -6,6 +8,15 @@
 {% assign rel_url = action_url | relative_url %}
 
 {% assign full_url = rel_url %}
+  {% if action_style=='language' %}
+  {% if action_label==pagelang %}
+{% assign action_style = 'primary' %}
+{% else %}
+{% assign action_style = 'secondary' %}
+{% endif %}
+
+
+{% endif %}
   
 
 <a href="{{ full_url }}"
@@ -14,8 +25,9 @@
   class="{% if action_style == 'primary' or action_style == 'secondary' %}button{% endif %}{% if action_style == 'secondary' %} secondary{% endif %}{% assign has_icon_is_not_empty = action.has_icon | is_not_empty %}{% if has_icon_is_not_empty %} has-icon{% endif %}">
   {% assign has_icon_is_not_empty = action.has_icon | is_not_empty %}
   {% if has_icon_is_not_empty %}
-    
-    {% include icon.html icon=action_icon %}
-  {% endif %}
-  <span {% if action_icon_pos == 'right' %}class="order-first"{% endif %}>{{ action.label }}</span>
+{% include icon.html icon=action_icon %}
+{% endif %}
+<span {% if action_icon_pos == 'right' %}class="order-first"{% endif %}>{{ action.label }}</span>
 </a>
+
+

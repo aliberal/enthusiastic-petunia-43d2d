@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: en
 title: Home
 sections:
   - section_id: main

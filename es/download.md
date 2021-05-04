@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: es
 title: Download
 sections:
   - section_id: download
