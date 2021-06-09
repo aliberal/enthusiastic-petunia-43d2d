@@ -4,13 +4,13 @@ title: Home
 sections:
   - section_id: main
     type: section_hero
-    image: /:pagelang:/images/feature00.png
+    image: /:pagelang:/images/wellcome.png
     image_alt: App preview
     title: Mouse Helper
     content: "*Mouse Helper*\_is a free software suite that runs on Windows (7 and above), and that will help you improve your mouse operation.\n\n"
     actions:
-      - label: Learn More
-        url: /:pagelang:/features
+      - label: View Demo
+        url: /:pagelang:/demo
         style: primary
       - label: Download
         url: /:pagelang:/download
@@ -22,11 +22,18 @@ sections:
         no_follow: false
         type: action
   - section_id: features
+    type: section_content
+    background: gray
+    title: What is MouseHelper?
+    content: >-
+      Mouse Helper is a suite of little helpers that will make your life easier 
+      when handling the mouse pointer of your personal computer, improving its stability when your hand shakes
+      
+
+
+  - section_id: features
     type: section_features
     background: gray
-    title: Features
-    subtitle: >-
-      Improve the stability of the mouse when your hand shakes
     features:
       - title: MouseHelper
         image: /:pagelang:/images/feature1.png
@@ -35,7 +42,7 @@ sections:
           With ***MouseHelper*** you will control the mouse speed, the button press time or the drag and drog operations
         actions:
           - label: Learn More
-            url: /:pagelang:/features
+            url: /:pagelang:/MouseHelper
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -47,7 +54,7 @@ sections:
           With ***MouseJoyHelper*** you will control your mouse pointer with a JoyStick
           
 
-          Choose one of the JoySticks on your system and configur the speed of the mouse and assing each of its buttons a specialized task
+          Choose one of the JoySticks on your system and setup the speed of the pointer, or assing each of its buttons a specialized task
         actions:
           - label: Learn More
             url: /:pagelang:/features
@@ -81,11 +88,11 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-      - title: Configuration
+      - title: Multilingual
         image: /:pagelang:/images/feature5.png
         image_alt: Configuration
         content: >-
-          Configure ***MouseHelper*** and change the language or  how it should start when Windows starts
+          Set **MouseHelper** to start when windows starts, or change the language to make you feel comfortable
         actions:
           - label: Learn More
             url: /:pagelang:/features

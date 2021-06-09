@@ -5,39 +5,111 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/images/feature1.png
+    image: /:pagelang:/images/wellcome.png
     image_alt: App preview on a phone and tablet
-    title: The Best Features of Your Services
+    title: What is MouseHelper?
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
+      Mouse Helper is a suite of little helpers that will make your life easier 
+      when handling the mouse pointer of your personal computer:
+      
 
 
-      * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      * MouseHelper
 
-      * Ut eu nunc at diam fringilla fringilla eu ut massa.
+      * MouseJoyHelper
 
-      * Phasellus ut enim non lorem venenatis rutrum.
+      * KeyBoardHelper and MouseKeysHelper
+      
+      * MiniHelpers
 
 
-      Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor
-      sed justo tempor condimentum.
     actions:
-      - label: Free Trial
-        url: :pagelang:/signup
-        style: primary
       - label: View Demo
         url: '#'
         style: secondary
-  - section_id: call-to-action
+  - section_id: features
+    type: section_features
+    background: gray
+    title: Features
+    subtitle: >-
+      Improve the stability of the mouse when your hand shakes
+    features:
+      - title: MouseHelper
+        image: /:pagelang:/images/feature1.png
+        image_alt: Control the mouse pointer
+        content: >-
+          With ***MouseHelper*** you will control the mouse speed, the button press time or the drag and drog operations
+        actions:
+          - label: Learn More
+            url: /:pagelang:/MouseHelper
+            style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+      - title: MouseJoyHelper
+        image: /:pagelang:/images/feature2.png
+        image_alt: MouseJoyHelper
+        content: >-
+          With ***MouseJoyHelper*** you will control your mouse pointer with a JoyStick
+          
+
+          Choose one of the JoySticks on your system and configur the speed of the mouse and assing each of its buttons a specialized task
+        actions:
+          - label: Learn More
+            url: /:pagelang:/features
+            style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+      - title: KeyBoardHelper & MouseKeysHelper
+        image: /:pagelang:/images/feature3.png
+        image_alt: KeyBoardHelper & MouseKeysHelper
+        content: >-
+          With ***KeyBoardHelper*** & ***MouseKeysHelper*** you will control the keystrokes and move the mouse using your keyboard
+        actions:
+          - label: Learn More
+            url: /:pagelang:/features
+            style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+      - title: MiniHelpers
+        image: /:pagelang:/images/feature4.png
+        image_alt: MiniHelpers
+        content: >-
+          Do you know **MiniHelpers**?
+
+          A set of small components that will try to help in handling your Mouse or your JoyStick
+        actions:
+          - label: Learn More
+            url: /:pagelang:/features
+            style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+      - title: Configuration
+        image: /:pagelang:/images/feature5.png
+        image_alt: Configuration
+        content: >-
+          Configure ***MouseHelper*** and change the language or  how it should start when Windows starts
+        actions:
+          - label: Learn More
+            url: /:pagelang:/features
+            style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+  - section_id: make-a-donation
     type: section_cta
-    title: This Is Call to Action Block!
-    subtitle: This is an optional description for the call to action block.
+    title: Make a donation!
+    subtitle: >-
+         This sofware is free to run and distribute, but you can make a donation to any aid association if you feel like it.
+
+         I suggest you to make it in a Parkinson's Association, such as [ANAPAR](http://www.anapar.org/) or  [Spanish Parkinson's Federation](https://www.esparkinson.es/)
     actions:
-      - label: Get Started
-        url: '#'
-        style: secondary
+      - label: Make a donation
+        url: https://www.anapar.org/socio/haz-un-donativo/
+        style: primary
 seo:
   title: Features
   description: This is the features page
