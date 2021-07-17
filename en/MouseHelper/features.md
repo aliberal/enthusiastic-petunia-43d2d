@@ -5,9 +5,17 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/images/feature1.png
+    image: /:pagelang:/images/MouseHelper/0.png
     image_alt: App preview on a phone and tablet
-    title: The Best Features of Your Services
+    title: Mouse Helper
+    content: >-
+          With ***MouseHelper*** you will control the mouse speed, the button press time or the drag and drog operations
+  - section_id: features
+    type: section_content
+    background: gray
+    image: /:pagelang:/images/MouseHelper/1.png
+    image_alt: App preview on a phone and tablet
+    title: Mouse Helper
     content: >-
       Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
       cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
@@ -30,12 +38,32 @@ sections:
       - label: View Demo
         url: '#'
         style: secondary
-  - section_id: call-to-action
-    type: section_cta
-    title: This Is Call to Action Block!
-    subtitle: This is an optional description for the call to action block.
+  - section_id: features
+    type: section_content
+    background: gray
+    image: /:pagelang:/images/MouseHelper/2.png
+    image_alt: App preview on a phone and tablet
+    title:  
+    content: >-
+      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
+      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
+      consectetur lobortis.
+
+
+      * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+      * Ut eu nunc at diam fringilla fringilla eu ut massa.
+
+      * Phasellus ut enim non lorem venenatis rutrum.
+
+
+      Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor
+      sed justo tempor condimentum.
     actions:
-      - label: Get Started
+      - label: Free Trial
+        url: :pagelang:/signup
+        style: primary
+      - label: View Demo
         url: '#'
         style: secondary
 seo:

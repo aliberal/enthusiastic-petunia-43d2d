@@ -42,7 +42,7 @@ sections:
           With ***MouseHelper*** you will control the mouse speed, the button press time or the drag and drog operations
         actions:
           - label: Learn More
-            url: /:pagelang:/MouseHelper
+            url: /:pagelang:/MouseHelper/features
             style: secondary
             has_icon: true
             icon: arrow-right
