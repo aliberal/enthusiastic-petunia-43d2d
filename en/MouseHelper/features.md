@@ -1,4 +1,4 @@
----
+﻿---
 lang: en
 title: Features
 sections:
@@ -9,35 +9,27 @@ sections:
     image_alt: App preview on a phone and tablet
     title: Mouse Helper
     content: >-
-          With ***MouseHelper*** you will control the mouse speed, the button press time or the drag and drog operations
+          Con ***MouseHelper*** controlarás la velocidad de tu ratón, el tiempo mínimo para pulsar un botón o las operaciones "drag & drop" (arrastrar y soltar)
   - section_id: features
     type: section_content
     background: gray
     image: /:pagelang:/images/MouseHelper/1.png
     image_alt: App preview on a phone and tablet
-    title: Mouse Helper
+    title:  
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
+      ¿Tienes problemas al mover el puntero del mouse?
 
 
-      * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      ¡Haz que el ratón se adapte a tí, y no al revés!
+    
 
-      * Ut eu nunc at diam fringilla fringilla eu ut massa.
+      * Aumenta o disminuye fácilmente la velocidad del mouse en condiciones normales.
 
-      * Phasellus ut enim non lorem venenatis rutrum.
+      * Configura otra velocidad al pulsar las teclas Ctrl o Alt para que funcione como un acelerador o un freno
+      
+      * Si aún así no puedes controlar el ratón y se agita demasiado, puedes suavizar el movimiento seleccionando la resistencia a dicho movimiento
 
 
-      Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor
-      sed justo tempor condimentum.
-    actions:
-      - label: Free Trial
-        url: :pagelang:/signup
-        style: primary
-      - label: View Demo
-        url: '#'
-        style: secondary
   - section_id: features
     type: section_content
     background: gray
@@ -45,27 +37,31 @@ sections:
     image_alt: App preview on a phone and tablet
     title:  
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
+      ¿Te cuesta hacer clic en los botones del mouse?
 
 
-      * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      * Elige el botón o botones que te dan problemas.
+      
+      * Selecciona el tiempo mínimo que debes mantener presionado el botón para que genere un clic.
 
-      * Ut eu nunc at diam fringilla fringilla eu ut massa.
+      * Y finalmente selecciona la velocidad del doble clic.
 
-      * Phasellus ut enim non lorem venenatis rutrum.
+  - section_id: features
+    type: section_content
+    background: gray
+    image: /:pagelang:/images/MouseHelper/3.png
+    image_alt: App preview on a phone and tablet
+    title:  
+    content: >-
+      ¿Problemas con la operación de arrastrar y soltar archivos?
 
 
-      Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor
-      sed justo tempor condimentum.
-    actions:
-      - label: Free Trial
-        url: :pagelang:/signup
-        style: primary
-      - label: View Demo
-        url: '#'
-        style: secondary
+      ¿Has movido sin querer un fichero o carpeta de sitio?
+
+
+      ¡***MouseHelper*** te permitirá evitarlo!
+
+      
 seo:
   title: Features
   description: This is the features page
