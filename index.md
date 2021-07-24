@@ -4,7 +4,7 @@ title: Mouse Helper
 sections:
   - section_id: main
     type: section_hero
-    image: /:pagelang:/images/feature00.png
+    image: /:pagelang:/images/feature0.png
     image_alt: App preview
     title: Mouse Helper
     content: "*Mouse Helper*\ es un programa gratuito que funciona en Windows (7 en adelante), y que te ayudará a mejorar el manejo con el ratón"

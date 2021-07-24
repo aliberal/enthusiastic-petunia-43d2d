@@ -1,17 +1,14 @@
 ---
 lang: en
-title: Home
+title: Mouse Helper
 sections:
   - section_id: main
     type: section_hero
-    image: /:pagelang:/images/wellcome.png
-    image_alt: App preview
+    image: /:pagelang:/images/feature0.png
+    image_alt: Welcome to MouseHelper, your mouses assistant
     title: Mouse Helper
     content: "*Mouse Helper*\_is a free software suite that runs on Windows (7 and above), and that will help you improve your mouse operation.\n\n"
     actions:
-      - label: View Demo
-        url: /:pagelang:/demo
-        style: primary
       - label: Download
         url: /:pagelang:/download
         style: primary
@@ -39,10 +36,12 @@ sections:
         image: /:pagelang:/images/feature1.png
         image_alt: Control the mouse pointer
         content: >-
+
           With ***MouseHelper*** you will control the mouse speed, the button press time or the drag and drog operations
+
         actions:
           - label: Learn More
-            url: /:pagelang:/MouseHelper/features
+            url: /:pagelang:/mouseHelperFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -55,9 +54,10 @@ sections:
           
 
           Choose one of the JoySticks on your system and setup the speed of the pointer, or assing each of its buttons a specialized task
+
         actions:
           - label: Learn More
-            url: /:pagelang:/features
+            url: /:pagelang:/mouseJoyHelperFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -119,23 +119,23 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Azimuth Theme
+      value: Mouse Helper
       keyName: property
     - name: 'og:description'
-      value: The preview of MouseHelper
+      value: Your mouse assistant
       keyName: property
     - name: 'og:image'
-      value: :pagelang:/images/hero.png
+      value: :pagelang:/images/feature0.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Azimuth Theme
+      value: Mouse Helper
     - name: 'twitter:description'
-      value: The preview of the Azimuth theme
+      value: Your mouse assistant
     - name: 'twitter:image'
-      value: :pagelang:/images/hero.png
+      value: :pagelang:/images/feature0.png
       relativeUrl: true
 layout: landing
 ---

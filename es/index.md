@@ -4,14 +4,11 @@ title: Mouse Helper
 sections:
   - section_id: main
     type: section_hero
-    image: /:pagelang:/images/feature00.png
-    image_alt: App preview
+    image: /:pagelang:/images/feature0.png
+    image_alt: Bienvenido a Mouse Helper, tu asistente para el ratón
     title: Mouse Helper
     content: "*Mouse Helper*\ es un programa gratuito que funciona en Windows (7 en adelante), y que te ayudará a mejorar el manejo con el ratón"
     actions:
-      - label: Saber más
-        url: /:pagelang:/features
-        style: primary
       - label: Descargar
         url: /:pagelang:/download
         style: primary
@@ -35,7 +32,7 @@ sections:
           Con ***MouseHelper*** podrás controlar la velocidad del ratón, el tiempo de pulsación de sus botones o las operaciones de arrastrar y soltar
         actions:
           - label: Saber más
-            url: /:pagelang:/features
+            url: /:pagelang:/mouseHelperFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -47,7 +44,7 @@ sections:
           Con ***MouseJoyHelper*** podrás controlar el ratón con una palanca de juego (JoyStick)
         actions:
           - label: Saber más
-            url: /:pagelang:/features
+            url: /:pagelang:/mouseJoyHelperFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -102,30 +99,30 @@ sections:
         url: https://www.anapar.org/socio/haz-un-donativo/
         style: primary
 seo:
-  title: Stackbit Azimuth Theme
-  description: The preview of the Azimuth theme
+  title: Mouse Helper
+  description: Tu asistente para el ratón
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Azimuth Theme
+      value: Mouse Helper
       keyName: property
     - name: 'og:description'
-      value: The preview of the Azimuth theme
+      value: Tu asistente para el ratón
       keyName: property
     - name: 'og:image'
-      value: /:pagelang:/images/hero.png
+      value: /:pagelang:/images/feature0.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Azimuth Theme
+      value: Mouse Helper
     - name: 'twitter:description'
-      value: The preview of the Azimuth theme
+      value: Tu asistente para el ratón
     - name: 'twitter:image'
-      value: /:pagelang:/images/hero.png
+      value: /:pagelang:/images/feature0.png
       relativeUrl: true
 layout: landing
 ---

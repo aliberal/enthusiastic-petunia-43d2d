@@ -1,20 +1,20 @@
 ﻿---
-lang: en
-title: Features
+lang: es
+title: Características de Mouse Helper
 sections:
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/MouseHelper/0.png
-    image_alt: App preview on a phone and tablet
+    image: /:pagelang:/images/MouseHelper/0.png
+    image_alt: Pantalla principal de MouseHelper
     title: Mouse Helper
     content: >-
-          Con ***MouseHelper*** controlarás la velocidad de tu ratón, el tiempo mínimo para pulsar un botón o las operaciones "drag & drop" (arrastrar y soltar)
+          Con ***Mouse Helper*** podrás controlar la velocidad del ratón, el tiempo de pulsación de sus botones o las operaciones de arrastrar y soltar
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/MouseHelper/1.png
-    image_alt: App preview on a phone and tablet
+    image: /:pagelang:/images/MouseHelper/1.png
+    image_alt: Configuración de MouseHelper para ayudar con los problemas de movilidad del mouse
     title:  
     content: >-
       ¿Tienes problemas al mover el puntero del mouse?
@@ -33,8 +33,8 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/MouseHelper/2.png
-    image_alt: App preview on a phone and tablet
+    image: /:pagelang:/images/MouseHelper/2.png
+    image_alt: Configuración de MouseHelper para ayudar con los problemas de clic del ratón
     title:  
     content: >-
       ¿Te cuesta hacer clic en los botones del mouse?
@@ -49,8 +49,8 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/MouseHelper/3.png
-    image_alt: App preview on a phone and tablet
+    image: /:pagelang:/images/MouseHelper/3.png
+    image_alt: Configuración de MouseHelper para ayudar con los problemas de "drag & drop"
     title:  
     content: >-
       ¿Problemas con la operación de arrastrar y soltar archivos?
@@ -63,30 +63,30 @@ sections:
 
       
 seo:
-  title: Features
-  description: This is the features page
+  title: Características de MouseHelper
+  description: Características de MouseHelper
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Features
+      value: Características de MouseHelper
       keyName: property
     - name: 'og:description'
-      value: This is the features page
+      value: Características de MouseHelper
       keyName: property
     - name: 'og:image'
-      value: /:pagelang:/images/feature1.png
+      value: /:pagelang:/images/MouseHelper/0.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Features
+      value: Características de MouseHelper
     - name: 'twitter:description'
-      value: This is the features page
+      value: Esta es la página de características de MouseHelper
     - name: 'twitter:image'
-      value: /:pagelang:/images/feature1.png
+      value: /:pagelang:/images/MouseHelper/0.png
       relativeUrl: true
 layout: landing
 ---

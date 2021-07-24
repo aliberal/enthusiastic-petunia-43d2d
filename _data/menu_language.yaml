@@ -3,8 +3,8 @@
   - label: Home
     url: '/es/'
     style: link
-  - label: Caracteristicas
-    url: /es/features
+  - label: Descarga
+    url: /es/download
     style: link
   - label: Medios
     url: /es/media
@@ -15,9 +15,6 @@
     new_window: false
     no_follow: false
     type: action
-  - label: Descarga
-    url: /es/download
-    style: link
   - label: Haz una donacion
     url: https://www.anapar.org/socio/haz-un-donativo/
     style: primary
@@ -26,8 +23,8 @@
   - label: Home
     url: '/en/'
     style: link
-  - label: Features
-    url: /en/features
+  - label: Download
+    url: '/en/download'
     style: link
   - label: Media
     url: /en/media
@@ -38,9 +35,6 @@
     new_window: false
     no_follow: false
     type: action
-  - label: Download
-    url: '/en/download'
-    style: link
   - label: Make a Donation
     url: https://www.anapar.org/socio/haz-un-donativo/
     style: primary
