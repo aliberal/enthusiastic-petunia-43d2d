@@ -5,7 +5,7 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/images/MouseHelper/0.png
+    image: /:pagelang:/MouseHelper/0.png
     image_alt: App preview on a phone and tablet
     title: Mouse Helper
     content: >-
@@ -13,7 +13,7 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/images/MouseHelper/1.png
+    image: /:pagelang:/MouseHelper/1.png
     image_alt: App preview on a phone and tablet
     title:  
     content: >-
@@ -33,7 +33,7 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/images/MouseHelper/2.png
+    image: /:pagelang:/MouseHelper/2.png
     image_alt: App preview on a phone and tablet
     title:  
     content: >-
@@ -49,7 +49,7 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/images/MouseHelper/3.png
+    image: /:pagelang:/MouseHelper/3.png
     image_alt: App preview on a phone and tablet
     title:  
     content: >-
