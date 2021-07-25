@@ -56,7 +56,7 @@ sections:
           Con ***KeyBoardHelper*** & ***MouseKeysHelper*** podrás controlar las pulsaciones de las teclas, y mover el ratón con el teclado
         actions:
           - label: Saber más
-            url: /:pagelang:/features
+            url: /:pagelang:/keyboardHelperFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -70,7 +70,7 @@ sections:
           Son un conjunto de pequeños componentes que te ayudarán a manejar mejor tu ratón o tu JoyStick
         actions:
           - label: Saber más
-            url: /:pagelang:/features
+            url: /:pagelang:/miniHelperfeatures
             style: secondary
             has_icon: true
             icon: arrow-right

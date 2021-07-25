@@ -9,7 +9,7 @@ sections:
     image_alt: MouseJoyHelper Welcome page
     title: MouseJoyHelper
     content: >-
-        With ***MouseJoyHelper*** you can use the mouse with a joystick
+        With ***MouseJoyHelper*** you will control your mouse pointer with a JoyStick
   - section_id: features
     type: section_content
     background: gray
@@ -20,7 +20,7 @@ sections:
       Do you need to use a joystick to move the mouse pointer?
 
 
-      *** MouseJoyHelper *** can help you get there!
+      ***MouseJoyHelper*** can help you get there!
     
 
       * Decide if you want the MouseJoyHelper wizard to be activated when MouseHelper starts

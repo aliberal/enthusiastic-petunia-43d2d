@@ -69,7 +69,7 @@ sections:
           With ***KeyBoardHelper*** & ***MouseKeysHelper*** you will control the keystrokes and move the mouse using your keyboard
         actions:
           - label: Learn More
-            url: /:pagelang:/features
+            url: /:pagelang:/keyboardHelperFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -83,7 +83,7 @@ sections:
           A set of small components that will try to help in handling your Mouse or your JoyStick
         actions:
           - label: Learn More
-            url: /:pagelang:/features
+            url: /:pagelang:/MiniHelperFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -95,7 +95,7 @@ sections:
           Set **MouseHelper** to start when windows starts, or change the language to make you feel comfortable
         actions:
           - label: Learn More
-            url: /:pagelang:/features
+            url: /:pagelang:/SetupFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
