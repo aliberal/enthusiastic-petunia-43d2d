@@ -6,8 +6,11 @@ sections:
     type: section_hero
     image: /:pagelang:/images/feature0.png
     image_alt: Bienvenido a Mouse Helper, tu asistente para el ratón
-    title: Mouse Helper
-    content: "*Mouse Helper*\ es un programa gratuito que funciona en Windows (7 en adelante), y que te ayudará a mejorar el manejo con el ratón"
+    title: Mouse Helper 3.0
+    content: >-
+        ***MouseHelper*** es un "suite" gratuita de programas, que funciona en Windows (7 en adelante)
+         
+        Al ***MouseHelper*** original de la versión 2.0, se han unido esta vez más asistentes, que te ayudarán a mejorar el manejo con el ratón y el teclado
     actions:
       - label: Descargar
         url: /:pagelang:/download
@@ -23,7 +26,7 @@ sections:
     background: gray
     title: Características
     subtitle: >-
-      Mejora la estabilidad del ratón aunque tu mano tiemble
+      Mejora la estabilidad del ratón y el teclado aunque tu mano tiemble
     features:
       - title: MouseHelper
         image: /:pagelang:/images/feature1.png
@@ -67,7 +70,7 @@ sections:
         content: >-
           ¿Conoces los **MiniHelpers**?
 
-          Son un conjunto de pequeños componentes que te ayudarán a manejar mejor tu ratón o tu JoyStick
+          Son un conjunto de pequeños componentes que te ayudarán a manejar mejor tu ratón y a sacar el mayor partido a todos los botones de tu JoyStick
         actions:
           - label: Saber más
             url: /:pagelang:/miniHelperFeatures
@@ -75,11 +78,11 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-      - title: Configuración
+      - title: Configúralo a tu gusto
         image: /:pagelang:/images/feature5.png
-        image_alt: Configuración
+        image_alt: Pantalla de configuración
         content: >-
-          Configura ***MouseHelper***, cambiando el idioma o cómo quieres que se inicie al arrancar Windows
+          ***MouseHelper*** te permite elegir el idioma, decidir si quieres o no que se inicie al hacerlo Windows o incluso ejecutarlo en modo Administrador, para hacerlo sin restricciones
   - section_id: make-a-donation
     type: section_cta
     title: ¡Haz una donación!

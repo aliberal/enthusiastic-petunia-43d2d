@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Download
+title: Download MouseHelper
 sections:
   - section_id: download
     type: section_download
@@ -46,57 +46,58 @@ sections:
       - subtitle: 'Standalone Installer'
         content: >-
           Download the setup file and follow the instructions, depending on your
-          internet browser.
+          internet browser
+
 
           If you have problems installing it (because your antivirus prevents
           it, for example), try the following:
 
           * Please disable your antivirus (or add an exception for
           MouseHelper.exe), try the download and installation again, and then
-          turn your antivirus back on.
+          turn your antivirus back on
               
-            The program is digitally signed by me, and has all the guarantees, but since it accesses the mouse and keyboard at a very low level, some antivirus can incorrectly detect it as a false positive.
-            As far as possible I will be contacting these companies so that they take it into account.
+            The program is digitally signed by me, and has all the guarantees, but since it accesses the mouse and keyboard at a very low level, some antivirus can incorrectly detect it as a false positive
+            As far as possible I will be contacting these companies so that they take it into account
 
-          * If you can't, choose the ZIP file method.
+          * If you can't, choose the ZIP file method
 
 
           * If you continue to have problems, contact me by email at
           [mousehelper@outlook.es](mailto://mousehelper@outlook.es) and I will
-          try to help you personally.
+          try to help you personally
              
           **Keep in mind that I offer my help altruistically, and that behind
-          this project I am only dedicating my free time, so be patient.**
+          this project I am only dedicating my free time, so be patient**
         actions:
-          - label: View image
+          - label: View instructions
             url: >-
               /:pagelang:/images/HowToInstallEdge.gif
             style: secondary
       - subtitle: 'ZIP file'
-        content: Download the ZIP file and follow the instructions.
+        content: Download the ZIP file and follow the instructions
         actions:
-          - label: View image
+          - label: View instructions
             url: >-
               /:pagelang:/images/HowToInstallManual.gif
             style: secondary
 seo:
-  title: download
-  description: This is the download page
+  title: Download MouseHelper
+  description: This is the download page of MouseHelper
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: download
+      value: Download MouseHelper
       keyName: property
     - name: 'og:description'
-      value: This is the download page
+      value: This is the download page of MouseHelper
       keyName: property
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: download
+      value: Download MouseHelper
     - name: 'twitter:description'
-      value: This is the download page
+      value: This is the download page of MouseHelper
 layout: landing
 ---

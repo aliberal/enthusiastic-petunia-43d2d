@@ -1,34 +1,32 @@
----
+﻿---
 lang: es
-title: Download
+title: Descarga MouseHelper
 sections:
   - section_id: download
     type: section_download
     background: gray
-    title: Download MouseHelper
-    subtitle: Mouse Helper is available for download in the following formats
+    title: Descarga MouseHelper
+    subtitle: Mouse Helper está disponible para descargar en los siguientes formatos
     download_plans:
       - title: 'MouseHelper.exe'
-        subtitle: Windows 7 (and above)
-        price: 'Standalone Installer v.3.0.0'
+        subtitle: Windows 7 (y superior)
+        price: 'Instalador independiente v.3.0.0'
         details: >
-          Click on the button below to download the latest version of Mouse
-          Helper Installer
+          Haz clic en el botón inferior para descargar la última versión del instalador de MouseHelper
         highlight: true
         actions:
-          - label: Download
+          - label: Descargar
             url: >-
               https://github.com/clssystem/MouseHelperReleases/releases/latest/download/MouseHelper.exe
             style: primary
       - title: 'MouseHelper.zip'
-        subtitle: Windows 7 (and above)
-        price: ZIP File
+        subtitle: Windows 7 (y superior)
+        price: Fichero ZIP
         details: >
-          Click on the button below to download the latest version of Mouse
-          Helper in ZIP format
+          Haz clic en el botón inferior para descargar la última versión de Mouse Helper en formato ZIP
         highlight: false
         actions:
-          - label: Download
+          - label: Descargar
             url: >-
               https://github.com/clssystem/MouseHelperReleases/releases/latest/download/MouseHelper.zip
             style: primary
@@ -43,60 +41,56 @@ sections:
     type: section_features
     background: gray
     features:
-      - subtitle: 'Standalone Installer'
+      - subtitle: 'Instalador independiente'
         content: >-
-          Download the setup file and follow the instructions, depending on your
-          internet browser.
+          Descarga el fichero de instalación y sigue las instrucciones, dependiendo de tu navegador de internet
+          
+          
+          Si tienes problemas haciendo la instalación (porque tu antivirus lo bloquea, por ejemplo) intenta
+          lo siguiente:
 
-          If you have problems installing it (because your antivirus prevents
-          it, for example), try the following:
+          * Desactiva tu antivirus (o añade una excepción para MouseHelper.exe), después intenta la descarga e instalación de nuevo, y finalmente activa de nuevo tu antivirus
 
-          * Please disable your antivirus (or add an exception for
-          MouseHelper.exe), try the download and installation again, and then
-          turn your antivirus back on.
-              
-            The program is digitally signed by me, and has all the guarantees, but since it accesses the mouse and keyboard at a very low level, some antivirus can incorrectly detect it as a false positive.
-            As far as possible I will be contacting these companies so that they take it into account.
+            Este programa está firmado digitalmente por mi, y tiene todas las garantías, pero como accede al ratón y al teclado a muy bajo nivel, algunos antivirus pueden incorrectamente detectarlo como un falso positivo
+            
+            Hasta donde sea posible, intentaré contactar con las compañias antivirus para que lo tengan en cuenta
 
-          * If you can't, choose the ZIP file method.
+          * Si no lo puedes hacer, entonces sigue las instrucciones del método del fichero ZIP
 
 
-          * If you continue to have problems, contact me by email at
-          [mousehelper@outlook.es](mailto://mousehelper@outlook.es) and I will
-          try to help you personally.
+          * Si aún así continúas teniendo problemas, contacta conmigo vía email en [mousehelper@outlook.es](mailto://mousehelper@outlook.es) e intentaré ayudarte personalmente
              
-          **Keep in mind that I offer my help altruistically, and that behind
-          this project I am only dedicating my free time, so be patient.**
+          **Ten en cuenta que te ofrezco esta ayuda altruísticamente y que detrás de este proyecto sólo estoy yo, dedicándole mi tiempo libre, así que ten paciencia si tardo en contestarte**
         actions:
-          - label: View image
+          - label: Ver instrucciones
             url: >-
               /:pagelang:/images/HowToInstallEdge.gif
             style: secondary
       - subtitle: 'ZIP file'
-        content: Download the ZIP file and follow the instructions.
+        content: Descarga el fichero ZIP y sigue las instrucciones
         actions:
-          - label: View image
+          - label: Ver instrucciones
             url: >-
               /:pagelang:/images/HowToInstallManual.gif
             style: secondary
 seo:
-  title: download
-  description: This is the download page
+  title: Descarga MouseHelper
+  description: Esta es la página de descarga de MouseHelper
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: download
+      value: Descarga MouseHelper
       keyName: property
     - name: 'og:description'
-      value: This is the download page
+      value: Esta es la página de descarga de MouseHelper
       keyName: property
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: download
+      value: Descarga MouseHelper
     - name: 'twitter:description'
-      value: This is the download page
+      value: Esta es la página de descarga de MouseHelper
 layout: landing
 ---
