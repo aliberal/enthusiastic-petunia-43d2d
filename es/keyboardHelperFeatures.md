@@ -5,7 +5,7 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/images/KeyBoardHelper/0.png
+    image: /:pagelang:/images/KeyBoardHelper1/0.png
     image_alt: Pantalla principal de KeyBoardHelper & MouseJoyHelper
     title: KeyBoardHelper & MouseJoyHelper
     content: >-
@@ -33,7 +33,7 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/images/KeyBoardHelper/2.png
+    image: /:pagelang:/images/KeyBoardHelper1/2.png
     image_alt: Configuración de MouseKeysHelper para controlar el puntero del ratón con el teclado
     title:  MouseKeysHelper
     content: >-
@@ -65,7 +65,7 @@ seo:
       value: Características de KeyBoardHelper & MouseKeysHelper
       keyName: property
     - name: 'og:image'
-      value: /:pagelang:/images/KeyBoardHelper/0.png
+      value: /:pagelang:/images/KeyBoardHelper1/0.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
