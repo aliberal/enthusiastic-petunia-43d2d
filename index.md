@@ -70,7 +70,7 @@ sections:
           Son un conjunto de pequeños componentes que te ayudarán a manejar mejor tu ratón o tu JoyStick
         actions:
           - label: Saber más
-            url: /:pagelang:/miniHelperfeatures
+            url: /:pagelang:/miniHelperFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -80,13 +80,6 @@ sections:
         image_alt: Configuración
         content: >-
           Configura ***MouseHelper***, cambiando el idioma o cómo quieres que se inicie al arrancar Windows
-        actions:
-          - label: Saber más
-            url: /:pagelang:/features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
   - section_id: make-a-donation
     type: section_cta
     title: ¡Haz una donación!

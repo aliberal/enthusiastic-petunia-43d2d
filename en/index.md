@@ -83,7 +83,7 @@ sections:
           A set of small components that will try to help in handling your Mouse or your JoyStick
         actions:
           - label: Learn More
-            url: /:pagelang:/MiniHelperFeatures
+            url: /:pagelang:/miniHelperFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
