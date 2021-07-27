@@ -66,7 +66,7 @@ sections:
             url: >-
               /:pagelang:/images/HowToInstallEdge.gif
             style: secondary
-      - subtitle: 'ZIP file'
+      - subtitle: 'Fichero ZIP'
         content: Descarga el fichero ZIP y sigue las instrucciones
         actions:
           - label: Ver instrucciones
