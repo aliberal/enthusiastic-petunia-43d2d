@@ -13,7 +13,7 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/images/KeyBoardHelper/1.png
+    image: /:pagelang:/images/KeyBoardHelper1/1.png
     image_alt: Configuración de KeyBoardHelper para ayudar con los problemas de pulsación de las teclas
     title:  KeyBoardHelper
     content: >-
