@@ -87,7 +87,7 @@ sections:
           ***MouseHelper*** allows you to choose the language, decide whether or not you want it to start when Windows does it or even run it in Administrator mode, to do it without restrictions
   - section_id: make-a-donation
     type: section_cta
-    title: ¡Haz una donación!
+    title: ¡Make a Donation!
     subtitle: >-
          This sofware is free to run and distribute, but you can make a donation to any aid association if you feel like it.
 

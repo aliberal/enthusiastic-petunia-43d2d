@@ -1,6 +1,6 @@
-﻿lang: es
+lang: es
 title: 'MouseHelper'
-domain: 'https://aliberal.github.io/enthusiastic-petunia-43d2d'
+domain: ''
 baseurl: /
 permalink: '/:title/:lang'
 collections:
