@@ -93,7 +93,7 @@ sections:
 
          I suggest you to make it in a Parkinson’s Association, such as [ANAPAR](http://www.anapar.org/) or  [Spanish Parkinson's Federation](https://www.esparkinson.es/)
     actions:
-      - label: Dona!
+      - label: Donate!
         url: https://www.anapar.org/socio/haz-un-donativo/
         style: primary
 seo:
