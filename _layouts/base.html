@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "es" }}">
     <head>    
-    <link rel="alternate" hreflang="x-default" href="{{ site.myurl | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/es/' | replace: '/en/', '/es/' | replace: '/eu/', '/es/'}}" />
-    <link rel="alternate" hreflang="es" href="{{ site.myurl | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/es/' | replace: '/en/', '/es/' | replace: '/eu/', '/es/'}}" />
-    <link rel="alternate" hreflang="es-EU" href="{{ site.myurl | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/eu/' | replace: '/en/', '/eu/' | replace: '/eu/', '/eu/'}}" />
-    <link rel="alternate" hreflang="en"  href="{{ site.myurl | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/en/' | replace: '/en/', '/en/' | replace: '/eu/', '/en/'}}" />
+    <link rel="alternate" hreflang="x-default" href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/es/' | replace: '/en/', '/es/' | replace: '/eu/', '/es/'}}" />
+    <link rel="alternate" hreflang="es" href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/es/' | replace: '/en/', '/es/' | replace: '/eu/', '/es/'}}" />
+    <link rel="alternate" hreflang="es-EU" href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/eu/' | replace: '/en/', '/eu/' | replace: '/eu/', '/eu/'}}" />
+    <link rel="alternate" hreflang="en"  href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/en/' | replace: '/en/', '/en/' | replace: '/eu/', '/en/'}}" />
 {% include language.html %}
         {% assign favico = site.favicon | replace: ':pagelang:', pagelang %}
 
@@ -25,9 +25,10 @@
             {% assign domain_is_not_empty = site.domain | is_not_empty %}
             {% if domain_is_not_empty %}
               {% assign domain = site.domain | trim: '/' %}
-              {% assign rel_url = meta.value | relative_url %}
-              {% assign full_url = domain | append: rel_url %}
-              <meta {{ key_name }}="{{ meta.name }}" content="{{ full_url }}">
+              {% assign rel_url = meta.value | replace: ':pagelang:', pagelang | relative_url %}
+              {% assign full_url = domain | append: rel_url  %}
+              {% assign valpag = full_url %}
+              <meta {{ key_name }}="{{ meta.name }}" content="{{ valpag }}">
         {% else %}
             {% assign valpag = site.domain | append: meta.value | replace: ':pagelang:', pagelang %}
             <meta {{ key_name }}="{{ meta.name }}" content="{{ valpag    }}">

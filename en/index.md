@@ -1,13 +1,16 @@
----
+﻿---
 lang: en
 title: Mouse Helper
 sections:
   - section_id: main
     type: section_hero
     image: /:pagelang:/images/welcome.png
-    image_alt: Welcome to MouseHelper, your mouses assistant
-    title: Mouse Helper
-    content: "*Mouse Helper*\_is a free software suite that runs on Windows (7 and above), and that will help you improve your mouse operation.\n\n"
+    image_alt: Bienvenido a Mouse Helper, tu asistente para el ratón
+    title: Mouse Helper 3.0
+    content: >-
+        ***MouseHelper*** is a free software suite of little helpers, which is available for Windows Operating System (7 and above)
+         
+        The original ***MouseHelper*** version 2.0 has been joined by more helpers this time, allowing you to improve mouse and keyboard handling
     actions:
       - label: Download
         url: /:pagelang:/download
@@ -18,97 +21,79 @@ sections:
         new_window: false
         no_follow: false
         type: action
-  - section_id: features
-    type: section_content
-    background: gray
-    title: What is MouseHelper?
-    content: >-
-      Mouse Helper is a suite of little helpers that will make your life easier 
-      when handling the mouse pointer of your personal computer, improving its stability when your hand shakes
-      
-
-
+      - label: Donate!
+        url: https://www.anapar.org/socio/haz-un-donativo/
+        style: secondary
   - section_id: features
     type: section_features
     background: gray
+    title: Features
+    subtitle: >-
+      Improves mouse and keyboard stability even if your hand is shaking
     features:
       - title: MouseHelper
-        image: /:pagelang:/images/feature1.png
+        image: /:pagelang:/images/MouseHelper/0.png
         image_alt: Control the mouse pointer
         content: >-
-
-          With ***MouseHelper*** you will control the mouse speed, the button press time or the drag and drog operations
-
+          With ***MouseHelper*** you can control the speed of the mouse, the time it takes to press its buttons or drag and drop operations
         actions:
-          - label: Learn More
+          - label: Learn more
             url: /:pagelang:/mouseHelperFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
             icon_position: right
       - title: MouseJoyHelper
-        image: /:pagelang:/images/feature2.png
+        image: /:pagelang:/images/MouseJoyHelper/0.png
         image_alt: MouseJoyHelper
         content: >-
-          With ***MouseJoyHelper*** you will control your mouse pointer with a JoyStick
-          
-
-          Choose one of the JoySticks on your system and setup the speed of the pointer, or assing each of its buttons a specialized task
+          With ***MouseJoyHelper*** you can control the mouse with a joystick
 
         actions:
-          - label: Learn More
+          - label: Learn more
             url: /:pagelang:/mouseJoyHelperFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
             icon_position: right
       - title: KeyBoardHelper & MouseKeysHelper
-        image: /:pagelang:/images/feature3.png
+        image: /:pagelang:/images/KeyBoardHelper1/0.png
         image_alt: KeyBoardHelper & MouseKeysHelper
         content: >-
-          With ***KeyBoardHelper*** & ***MouseKeysHelper*** you will control the keystrokes and move the mouse using your keyboard
+          With ***KeyBoardHelper*** & ***MouseKeysHelper***  you will control the keystrokes and move the mouse using your keyboard
         actions:
-          - label: Learn More
+          - label: Learn more
             url: /:pagelang:/keyboardHelperFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
             icon_position: right
       - title: MiniHelpers
-        image: /:pagelang:/images/feature4.png
+        image: /:pagelang:/images/MiniHelpers/0.png
         image_alt: MiniHelpers
         content: >-
-          Do you know **MiniHelpers**?
-
-          A set of small components that will try to help in handling your Mouse or your JoyStick
+          The ***MiniHelpers*** are small components that allow you to perform tasks more specialized, and make the most of all the buttons on your joystick
         actions:
-          - label: Learn More
+          - label: Learn more
             url: /:pagelang:/miniHelperFeatures
             style: secondary
             has_icon: true
             icon: arrow-right
             icon_position: right
-      - title: Multilingual
-        image: /:pagelang:/images/feature5.png
-        image_alt: Configuration
+      - title: Configure it to your liking
+        image: /:pagelang:/images/Configuration/0.png
+        image_alt: Setup screen
         content: >-
-          Set **MouseHelper** to start when windows starts, or change the language to make you feel comfortable
-        actions:
-          - label: Learn More
-            url: /:pagelang:/SetupFeatures
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
+          ***MouseHelper*** allows you to choose the language, decide whether or not you want it to start when Windows does it or even run it in Administrator mode, to do it without restrictions
   - section_id: make-a-donation
     type: section_cta
-    title: Make a donation!
+    title: ¡Haz una donación!
     subtitle: >-
          This sofware is free to run and distribute, but you can make a donation to any aid association if you feel like it.
 
-         I suggest you to make it in a Parkinson's Association, such as [ANAPAR](http://www.anapar.org/) or  [Spanish Parkinson's Federation](https://www.esparkinson.es/)
+         I suggest you to make it in a Parkinson’s Association, such as [ANAPAR](http://www.anapar.org/) or  [Spanish Parkinson's Federation](https://www.esparkinson.es/)
     actions:
-      - label: Make a donation
+      - label: Dona!
         url: https://www.anapar.org/socio/haz-un-donativo/
         style: primary
 seo:
