@@ -25,7 +25,7 @@ layout: page
 
 Puedes contactar conmigo a través de los siguientes medios:
 
-* e-mail: [mousehelper@outlook.es](mailto:mousehelper@outlook.es)
+* e-mail: <a href='&#109;ai&#108;t&#111;&#58;&#37;6D&#111;usehe&#108;%70e&#114;&#64;outlo&#111;&#107;%&#50;Ee&#115;'>&#109;&#111;u&#115;ehe&#108;&#112;er&#64;outlook&#46;&#101;s</a>
 * Facebook: [ClsSystemMouseHelper](https://www.facebook.com/ClsSystemMouseHelper/)
 * Twitter: [@mouse_helper](https://twitter.com/mouse_helper)
 

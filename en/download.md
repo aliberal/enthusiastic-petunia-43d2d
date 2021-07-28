@@ -63,7 +63,7 @@ sections:
 
 
           * If you continue to have problems, contact me by email at
-          [mousehelper@outlook.es](mailto://mousehelper@outlook.es) and I will
+          <a href='&#109;ai&#108;t&#111;&#58;&#37;6D&#111;usehe&#108;%70e&#114;&#64;outlo&#111;&#107;%&#50;Ee&#115;'>&#109;&#111;u&#115;ehe&#108;&#112;er&#64;outlook&#46;&#101;s</a> and I will
           try to help you personally
              
           **Keep in mind that I offer my help altruistically, and that behind

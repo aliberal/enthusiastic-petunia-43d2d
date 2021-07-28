@@ -4,7 +4,7 @@ title: Mouse Helper
 sections:
   - section_id: main
     type: section_hero
-    image: /:pagelang:/images/feature0.png
+    image: /:pagelang:/images/welcome.png
     image_alt: Welcome to MouseHelper, your mouses assistant
     title: Mouse Helper
     content: "*Mouse Helper*\_is a free software suite that runs on Windows (7 and above), and that will help you improve your mouse operation.\n\n"

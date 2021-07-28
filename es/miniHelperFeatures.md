@@ -12,14 +12,14 @@ sections:
       ¿Necesitas más ayuda?
 
 
-      ¡Los ***MiniHelpers*** pueden ayudarte a conseguirlo!
+      Los ***MiniHelpers*** son pequeños componentes que te permitirán realizar tareas más especializadas, y sacar el mayor partido a todos los botones de tu JoyStick
     
 
-      * Añade los que más te interesen desde la galería
+      * Añade el que más te interese desde la galería, ¡hay muchos!
 
-      * Una vez añadido, asígnalo a uno de los botones de tu JoyStick, o a la combinación de teclas que más te apetezca
+      * Asígnalo a uno de los botones de tu JoyStick, o a la combinación de teclas que más se adapte a tus necesidades
 
-      * Alguno de los MiniHelper se pueden editar para modificar su comportamiento. ¡Inténtalo!
+      * Algunos se pueden editar para modificar su comportamiento. ¡Inténtalo!
       
   - section_id: features
     type: section_content
@@ -85,7 +85,7 @@ sections:
       Este MiniHelper te permitirá lanzar la pulsación de una combinación de teclas al pulsar el botón asociado
 
 
-      * Pulsa la combinación de teclas que desees (como Ctrl + C) y este MiniHelper las reporducirá
+      * Graba la combinación de teclas que desees (como Ctrl + C) y este MiniHelper las reproducirá por tí
       
       * También puedes editar su título, descripción, o incluso su icono
       
@@ -100,6 +100,10 @@ sections:
       ¿Se te ocurre alguna idea que te pueda ayudar?
 
       * El motor de ejecución de los MiniHelpers está pensado para que se puedan ampliar dinámicamente
+      
+      * Contacta conmigo si se te ocurre alguna idea o mejora, o incluso para darte apoyo técnico si lo decides hacer por tí mismo
+
+
        
 
 
