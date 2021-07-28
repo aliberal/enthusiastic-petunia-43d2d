@@ -20,7 +20,7 @@ sections:
       Are you having trouble pressing the keys?
 
 
-      *** KeyBoardHelper *** can help you!
+      ***KeyBoardHelper*** can help you!
     
 
       * Decide if you want the KeyBoardHelper assistant to be activated when MouseHelper starts up
@@ -28,7 +28,7 @@ sections:
       * Indicates how long you must hold down a key for it to be considered good
       
       * You can also indicate how long to wait for the key to be repeated for the first time
-      * 
+      
   - section_id: features
     type: section_content
     background: gray
@@ -39,7 +39,7 @@ sections:
       
       Do you need the keyboard to operate the mouse?
       
-      With *** MouseKeysHelper *** you can get it!
+      With ***MouseKeysHelper*** you can get it!
 
 
       * Decide if you want the MouseKeysHelper assistant to be activated when MouseHelper starts
