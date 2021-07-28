@@ -33,7 +33,7 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: /:pagelang:/images/KeyBoardHelper1/2.png
+    image: /:pagelang:/images/KeyBoardHelper/2.png
     image_alt: Configuración de MouseKeysHelper para controlar el puntero del ratón con el teclado
     title:  MouseKeysHelper
     content: >-

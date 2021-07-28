@@ -57,7 +57,7 @@ sections:
             icon: arrow-right
             icon_position: right
       - title: KeyBoardHelper & MouseKeysHelper
-        image: /:pagelang:/images/KeyBoardHelper1/0.png
+        image: /:pagelang:/images/KeyBoardHelper/0.png
         image_alt: KeyBoardHelper & MouseKeysHelper
         content: >-
           With ***KeyBoardHelper*** & ***MouseKeysHelper***  you will control the keystrokes and move the mouse using your keyboard

@@ -56,7 +56,7 @@ sections:
             icon: arrow-right
             icon_position: right
       - title: KeyBoardHelper & MouseKeysHelper
-        image: /:pagelang:/images/KeyBoardHelper1/0.png
+        image: /:pagelang:/images/KeyBoardHelper/0.png
         image_alt: KeyBoardHelper & MouseKeysHelper
         content: >-
           Con ***KeyBoardHelper*** & ***MouseKeysHelper*** podrás controlar las pulsaciones de las teclas, y mover el ratón con el teclado
