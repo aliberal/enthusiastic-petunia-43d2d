@@ -9,7 +9,7 @@ sections:
     image_alt: MiniHelpers Main Screen
     title: MiniHelpers
     content: >-
-      Do you need more help?
+      Do you need more help? 
 
 
       The ***MiniHelpers*** are small components that allow you to perform tasks more specialized, and make the most of all the buttons on your joystick
