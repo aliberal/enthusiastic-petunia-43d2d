@@ -10,7 +10,7 @@ sections:
     content: >-
         ***MouseHelper*** is a free software suite of little helpers, which is available for Windows Operating System (7 and above)
          
-        The original ***MouseHelper*** version 2.0 has been joined by more helpers this time, allowing you to improve mouse and keyboard handling
+        The original ***MouseHelper*** v2.0 has been joined by more helpers this time, allowing you to improve mouse and keyboard handling
     actions:
       - label: Download
         url: /:pagelang:/download
