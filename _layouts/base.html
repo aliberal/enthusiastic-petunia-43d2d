@@ -2,10 +2,10 @@
 <html lang="{{ page.lang | default: site.lang | default: "es" }}">
     <head>    
         
-    <link rel="alternate" hreflang="x-default" href="{{ site.domain | append: relative_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/es/' | replace: '/en/', '/es/' | replace: '/eu/', '/es/'}}" />
-    <link rel="alternate" hreflang="es" href="{{ site.domain | append: relative_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/es/' | replace: '/en/', '/es/' | replace: '/eu/', '/es/'}}" />
-    <link rel="alternate" hreflang="es-EU" href="{{ site.domain | append: relative_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/eu/' | replace: '/en/', '/eu/' | replace: '/eu/', '/eu/'}}" />
-    <link rel="alternate" hreflang="en"  href="{{ site.domain | append: relative_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/en/' | replace: '/en/', '/en/' | replace: '/eu/', '/en/'}}" />
+    <link rel="alternate" hreflang="x-default" href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/es/' | replace: '/en/', '/es/' | replace: '/eu/', '/es/'}}" />
+    <link rel="alternate" hreflang="es" href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/es/' | replace: '/en/', '/es/' | replace: '/eu/', '/es/'}}" />
+    <link rel="alternate" hreflang="es-EU" href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/eu/' | replace: '/en/', '/eu/' | replace: '/eu/', '/eu/'}}" />
+    <link rel="alternate" hreflang="en"  href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/es/', '/en/' | replace: '/en/', '/en/' | replace: '/eu/', '/en/'}}" />
 {% include language.html %}
         {% assign favico = site.favicon | replace: ':pagelang:', pagelang %}
 
