@@ -4,7 +4,7 @@ on:
   push:
     branches: [ preview-et7x2 ]
   pull_request:
-    branches: [ master ]
+    branches: [ preview-et7x2 ]
 
 jobs:
   build:
