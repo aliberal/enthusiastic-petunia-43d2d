@@ -45,8 +45,10 @@
 }
 
 .post-image {
-  display: block;
-  margin-bottom: 2.5em;
+    display: flex;
+    margin-bottom: 2.5em;
+   flex-direction:column;
+   align-items:center;
 }
 
 @media only screen and (min-width: 601px) {

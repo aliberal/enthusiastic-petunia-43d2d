@@ -79,7 +79,7 @@
   }
 
   .cell {
-    text-align: justify;
+    text-align: left;
   }
 }
 
@@ -273,7 +273,7 @@
 }
 
 .plan-title {
-  font-size: 1.11111em;
+  font-size: 1.7777em;
   margin: 0;
 }
 
@@ -289,7 +289,8 @@
 .plan-price {
   color: $gray-700;
   font-weight: bold;
-  font-size: 2.22222em;
+  font-size: 0.88889em;
+  line-height: 1.5;
   margin-top: 0.5em;
 
   &:first-child {
@@ -304,7 +305,6 @@
 .plan-content {
   font-size: 0.88889em;
   line-height: 1.5;
-
   ul,
   ol {
     line-height: 1.3;
@@ -314,7 +314,10 @@
 
   li {
     margin-bottom: 0.75em;
+
+
   }
+  
 }
 
 .plan-footer {

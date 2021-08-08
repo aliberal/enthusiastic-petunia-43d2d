@@ -3,9 +3,11 @@ layout: base
 ---
 
 <div id="page" class="site">
-  {% include header.html %}
+  {% include language.html %}
+    {% include header.html %}
   <main id="content" class="site-content">
     {{ content }}
   </main><!-- .site-content -->
-  {% include footer.html %}
+    {% assign footer = 'footer.html'%}
+  {% include {{footer}}  %}
 </div><!-- .site -->
