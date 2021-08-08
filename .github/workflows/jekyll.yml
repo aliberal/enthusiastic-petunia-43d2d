@@ -12,16 +12,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -
-        name: Check GitHub Pages status
+      - name: Check GitHub Pages status
         uses: crazy-max/ghaction-github-status@v2
         with:
           pages_threshold: major_outage
-     -
-        name: Checkout
+      - name: Checkout
         uses: actions/checkout@v2
-      -
-        name: Gen dummy page
+      - name: Gen dummy page
         run: |
           mkdir public
           cat > public/index.html <<EOL
@@ -35,8 +32,7 @@ jobs:
             </body>
           </html>
           EOL
-      -
-        name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
         with:
