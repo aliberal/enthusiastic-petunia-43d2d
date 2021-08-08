@@ -2,9 +2,9 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ preview-et7x2 ]
+    branches: [ master ]
   pull_request:
-    branches: [ preview-et7x2 ]
+    branches: [ master ]
 
 jobs:
   build:
