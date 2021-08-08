@@ -42,7 +42,7 @@ sections:
 
       * Easily increase or decrease mouse speed under normal conditions.
 
-      * Set another speed by pressing one of the buttons on your joystick (JoyStick) to function as a throttle or brake
+      * Set another speed by pressing one of the buttons on your joystick to function as a throttle or brake
 
   - section_id: features
     type: section_content
