@@ -2,10 +2,12 @@
 <html lang="{{ page.lang | default: site.lang | default: "es" }}">
     <head>    
         
-    <link rel="alternate" hreflang="x-default" href="{{ site.domain | trim: '/' | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/en/', '/es/' | replace: '/eu/', '/es/' | replace: '/es/', '/' | trim: '/' }}es/" />
-    <link rel="alternate" hreflang="es" href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/en/', '/es/' | replace: '/eu/', '/es/' | replace: '/es/', '/'}}es/" />
-    <link rel="alternate" hreflang="es-EU" href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/en/', '/es/' | replace: '/eu/', '/es/' | replace: '/es/', '/'}}eu/" />
-    <link rel="alternate" hreflang="en"  href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/en/', '/es/' | replace: '/eu/', '/es/' | replace: '/es/', '/'}}en/" />
+        <link rel="alternate" hreflang="x-default" href="{{ site.domain | trim: '/' | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/en/', '/es/' | replace: '/eu/', '/es/' | replace: '/es/', '/' | trim: '/' }}es/" />
+    <link rel="alternate" hreflang="es" href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/en/', '/es/' | replace: '/eu/', '/es/' | replace: '/es/', '/'}}/es/" />
+    <link rel="alternate" hreflang="es-ES" href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/en/', '/es/' | replace: '/eu/', '/es/' | replace: '/es/', '/'}}/es/" />
+    <link rel="alternate" hreflang="es-EU" href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/en/', '/es/' | replace: '/eu/', '/es/' | replace: '/es/', '/'}}/eu/" />
+    <link rel="alternate" hreflang="en"  href="{{ site.domain | append: rel_url }}{{ page.url | replace:'index.html','' | replace: '/en/', '/es/' | replace: '/eu/', '/es/' | replace: '/es/', '/'}}/en/" />
+
 {% include language.html %}
 
 
