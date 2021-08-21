@@ -21,7 +21,6 @@
         <div class="site-header-inside">
             <div class="site-branding">
                 <div class="site-logo" style="align-items:center;margin:0;padding:0">
-<h1 style="visibility:hidden">{{page.title}}</h1>        
                     
                     <div style="flex-grow:1">
                         <a href="{{full_url}}" style="text-decoration:none">
@@ -34,7 +33,6 @@
                                <a href="{{full_url}}" style="text-decoration:none;float:left">
                                     <img src="{{ site.header.logo_clsSystem | relative_url | replace: ':pagelang:', pagelang }}" style="vertical-align:central;width:140px;" href='{{ '/' | relative_url }}' />
                                 </a>
-
                                 <p style="margin:0 0 0 5px;float:right">
 
                                     {% for action in site.header.nav_languages %}
@@ -65,4 +63,5 @@
             {% include menu.html%}
         </div>
     </div>
+    <div style="width:0px;height:0px;visibility:hidden"><h1 class="DD" style="width:0px;height:0px;visibility:hidden">{{page.title}}</h1></div>
 </header><!-- .site-header -->
