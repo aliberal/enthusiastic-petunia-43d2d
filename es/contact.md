@@ -1,4 +1,4 @@
-﻿---
+---
  lang: es
  title: Contacto
  seo:
@@ -20,7 +20,7 @@
       value: Contact
     - name: 'twitter:description'
       value: This is the contact page
-layout: page
+ layout: page
 ---
 
 Puedes contactar conmigo a través de los siguientes medios:
