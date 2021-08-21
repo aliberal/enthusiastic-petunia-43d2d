@@ -41,7 +41,8 @@
     flex-direction: row;
 
     img {
-        max-width: 100px;
+                max-width: 10vw;
+                min-width: 50px;
     }
 
     a {
@@ -61,8 +62,8 @@
         display: inline;
 
         img {
-            max-width: 100px;
-            min-width: 100px;
+                max-width: 10vw;
+                min-width: 140px;
         }
     }
 
@@ -131,15 +132,19 @@
 
         .site-logo {
             img {
-                max-width: 100px;
+                max-width: 10vw;
+                min-width: 50px;
             }
         }
 
-        .site-logo2 {
+               .site-logo2 {
             img {
-                max-width: 100px;
+                max-width: 5vw;
+                min-width: 140px;
             }
         }
+
+
 
         .menu-toggle {
             display: none;
@@ -185,9 +190,18 @@
 
         .site-logo {
             img {
-                max-width: 100px;
+                max-width: 10vw;
+                min-width: 50px;
             }
         }
+               .site-logo2 {
+            img {
+                max-width: 10vw;
+                min-width: 140px;
+            }
+        }
+
+
 
 
         .site-header {
@@ -327,11 +341,13 @@
         .site-logo {
             img {
                 max-width: 10vw;
+                min-width: 50px;
             }
         }
                .site-logo2 {
             img {
                 max-width: 10vw;
+                min-width: 140px;
             }
         }
 
