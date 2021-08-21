@@ -11,8 +11,8 @@ collections:
 base_font: nunito-sans
 palette: orange
 header:
-  logo_clsSystem: /:pagelang:/images/byClsSystem.svg
-  logo_img: /:pagelang:/images/logo.svg
+  logo_clsSystem: /:pagelang:/images/byClsSystem.png
+  logo_img: /:pagelang:/images/logo.png
   logo_img_alt: Logo
   has_nav: true
   nav_languages:
