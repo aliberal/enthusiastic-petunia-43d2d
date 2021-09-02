@@ -43,7 +43,7 @@
   - label: Home
     url: '/fr/'
     style: link
-  - label: Download
+  - label: Télécharger
     url: '/fr/download'
     style: link
   - label: Media
@@ -55,6 +55,6 @@
     new_window: false
     no_follow: false
     type: action
-  - label: Make a Donation
+  - label: Faire un don!
     url: https://www.anapar.org/socio/haz-un-donativo/
     style: primary

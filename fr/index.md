@@ -12,7 +12,7 @@ sections:
 
          Le programme ***MouseHelper*** original, v2.0, a été rejoint par plus d'assistants cette fois, vous permettant d'améliorer la manipulation de la souris et du clavier.
     actions:
-      - label: Download
+      - label: Télécharger
         url: /:pagelang:/download
         style: primary
         has_icon: false
@@ -21,7 +21,7 @@ sections:
         new_window: false
         no_follow: false
         type: action
-      - label: Donate!
+      - label: Faire un don!
         url: https://www.anapar.org/socio/haz-un-donativo/
         style: secondary
   - section_id: features

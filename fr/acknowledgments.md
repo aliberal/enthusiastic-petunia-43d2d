@@ -6,7 +6,7 @@ subtitle: >-
 image: /:pagelang:/images/thanks.png
 image_alt: Merci
 seo:
-  title: T
+  title: Remerciements et attributions
   description: Ceci est la page à propos de nous
   extra:
     - name: 'og:type'
