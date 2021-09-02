@@ -139,6 +139,60 @@ footers:
     rel="noopener">Stackbit</a>. Create yours <a
     href="https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer"
     target="_blank" rel="noopener">now</a>.
+ - name: fr
+   sections:
+    - type: footer_text
+      image: 
+      image_url: 
+      image_alt: 
+      content: by Cls-System        
+    - type: footer_nav
+      title: Cls-System
+      nav_links:
+        - label: About
+          url: /:pagelang:/about
+          style: link
+        - label: Blog
+          url: 'https://diariodeunparkinsoniano.cls-system.es/'
+          style: link
+        - label: Contact
+          url: /:pagelang:/contact
+          style: link
+        - label: Acknowledgments
+          url: /:pagelang:/acknowledgments
+          style: link
+    - type: footer_nav
+      title: Community
+      nav_links:
+        - label: Twitter
+          url: 'https://twitter.com/mouse_helper'
+          style: link
+          has_icon: true
+          icon: twitter
+          icon_position: left
+        - label: LinkedIn
+          url: 'https://www.linkedin.com/in/antonio-liberal-irigoyen-3233053a/'
+          style: link
+          has_icon: true
+          icon: linkedin
+          icon_position: left
+        - label: Facebook
+          url: 'https://www.facebook.com/ClsSystemMouseHelper/'
+          style: link
+          has_icon: true
+          icon: facebook
+          icon_position: left
+   has_nav: true
+   nav_links:
+    - label: License
+      url: /:pagelang:/licenseMH
+      style: link
+   content: >-
+    &copy; Cls-System. All rights reserved. This Jamstack site was based in a template made with <a
+    href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank"
+    rel="noopener">Stackbit</a>. Create yours <a
+    href="https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer"
+    target="_blank" rel="noopener">now</a>.
 
 
 
