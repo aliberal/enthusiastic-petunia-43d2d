@@ -3,6 +3,8 @@ lang: es
 title: 'MouseHelper'
 domain: 'https://www.mousesuite.cls-system.es'
 url: 'https://www.mousesuite.cls-system.es'
+url_download_exe: 'http:///clssystem/MouseHelperReleases/releases/latest/download/MouseHelper.exe'
+url_download_zip:
 baseurl: /
 permalink: '/:lang/:name'
 collections:
@@ -21,6 +23,9 @@ header:
       style: language
     - label: EN 
       url: /en
+      style: language
+    - label: FR
+      url: /fr
       style: language
     - label: EU
       url: /eu

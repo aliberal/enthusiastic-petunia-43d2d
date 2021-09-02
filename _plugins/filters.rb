@@ -207,5 +207,5 @@ module Stackbit
   end
 
 end
-
 Liquid::Template.register_filter(Stackbit::Filters)
+

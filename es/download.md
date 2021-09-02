@@ -16,8 +16,7 @@ sections:
         highlight: true
         actions:
           - label: Descargar
-            url: >-
-              https://github.com/clssystem/MouseHelperReleases/releases/latest/download/MouseHelper.exe
+            url: {{site.url_download_exe | markdownfy}}
             style: primary
       - title: 'MouseHelper.zip'
         subtitle: Windows 7 (y superior)
