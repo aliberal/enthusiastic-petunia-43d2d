@@ -1,5 +1,5 @@
 ---
-lang: en
+lang: fr
 title: About
 subtitle: >-
   My name is Antonio Liberal
